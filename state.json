@@ -12,9 +12,12 @@
     "gamerpower:3716|active",
     "gamerpower:3446|active",
     "gamerpower:2204|active",
-    "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9|upcoming"
+    "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9|upcoming",
+    "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9|active",
+    "epic:df37f065c3f14eadbf011177396e2966:d37f3694e7a04edb8347f3cb6320f9d3|upcoming",
+    "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c|upcoming"
   ],
-  "posts": 13,
+  "posts": 16,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -93,7 +96,25 @@
       "title": "Knightica",
       "store": "Epic Games Store",
       "status": "upcoming"
+    },
+    {
+      "at": "2026-11-12T19:52:59.262Z",
+      "title": "Knightica",
+      "store": "Epic Games Store",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T19:53:00.932Z",
+      "title": "Alien: Isolation",
+      "store": "Epic Games Store",
+      "status": "upcoming"
+    },
+    {
+      "at": "2026-11-12T19:53:02.650Z",
+      "title": "Mark of the Deep",
+      "store": "Epic Games Store",
+      "status": "upcoming"
     }
   ],
-  "lastRun": "2026-11-12T11:24:26.356Z"
+  "lastRun": "2026-11-12T19:53:04.151Z"
 }

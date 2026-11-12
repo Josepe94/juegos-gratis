@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-12T11:24:26.356Z",
+  "updated": "2026-11-12T19:53:04.151Z",
   "items": [
     {
-      "id": "epic:27e33143fc9e4de8bbf76782292933d4:3be0a0d8479946d78f60d90c9442a0b4",
+      "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
       "source": "epic",
       "store": "Epic Games Store",
-      "title": "Flotsam",
-      "description": "¡El juego de supervivencia de la ciudad flotante de basura! Recoge la valiosa basura que puedas de la superficie del océano y haz crecer tu ciudad mientras haces todo lo posible por sobrevivir en este colorido mundo postapocalíptico.",
-      "url": "https://store.epicgames.com/es-ES/p/flotsam-266287",
-      "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
-      "originalPrice": 22.99,
+      "title": "Knightica",
+      "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
+      "url": "https://store.epicgames.com/es-ES/p/knightica-3be45c",
+      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+      "originalPrice": 13.49,
       "currency": "EUR",
       "worthText": null,
       "type": "game",
       "status": "active",
-      "startDate": "2026-11-05T16:00:00.000Z",
-      "endDate": "2026-11-12T16:00:00.000Z",
+      "startDate": "2026-11-12T16:00:00.000Z",
+      "endDate": "2026-11-19T16:00:00.000Z",
       "platforms": [
         "PC"
       ]
@@ -221,20 +221,39 @@
       "verified": true
     },
     {
-      "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
+      "id": "epic:df37f065c3f14eadbf011177396e2966:d37f3694e7a04edb8347f3cb6320f9d3",
       "source": "epic",
       "store": "Epic Games Store",
-      "title": "Knightica",
-      "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
-      "url": "https://store.epicgames.com/es-ES/p/knightica-3be45c",
-      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
-      "originalPrice": 13.49,
+      "title": "Alien: Isolation",
+      "description": "Descubre el verdadero significado del terror en Alien: Isolation, un juego de horror y supervivencia que transcurre en un ambiente de constante tensión y peligro...   Creado con el motor de juego CATHODE™.",
+      "url": "https://store.epicgames.com/es-ES/p/alien-isolation",
+      "image": "https://cdn1.epicgames.com/df37f065c3f14eadbf011177396e2966/offer/EGS_AlienIsolation_CreativeAssembly_S5-1920x1080-1cf3b9a86adcefeebf903451b1b3fb49.jpg",
+      "originalPrice": 39.99,
       "currency": "EUR",
       "worthText": null,
       "type": "game",
       "status": "upcoming",
-      "startDate": "2026-11-12T16:00:00.000Z",
-      "endDate": "2026-11-19T16:00:00.000Z",
+      "startDate": "2026-11-19T16:00:00.000Z",
+      "endDate": "2026-11-26T16:00:00.000Z",
+      "platforms": [
+        "PC"
+      ]
+    },
+    {
+      "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
+      "source": "epic",
+      "store": "Epic Games Store",
+      "title": "Mark of the Deep",
+      "description": "Mark of the Deep es una épica aventura pirata con fuerte narrativa y una emocionante mezcla de elementos de juegos Metroidvania y Souls-Like. ¡Embárcate en este viaje en la piel del pirata Rookie, explora los misterios de una isla maldita y encuentra a tus compañeros perdidos!",
+      "url": "https://store.epicgames.com/es-ES/p/mark-of-the-deep-f7dc08",
+      "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
+      "originalPrice": 19.5,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "game",
+      "status": "upcoming",
+      "startDate": "2026-11-19T16:00:00.000Z",
+      "endDate": "2026-11-26T16:00:00.000Z",
       "platforms": [
         "PC"
       ]

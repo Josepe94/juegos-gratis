@@ -142,13 +142,14 @@ const STORE_NAMES = {
     ios: 'iOS',
 };
 
-function guessStore(platformsText) {
-    const p = String(platformsText || '').toLowerCase();
+function guessStore(platformsText, title) {
+    const p = (String(platformsText || '') + ' ' + String(title || '')).toLowerCase();
     if (p.includes('steam')) return 'Steam';
     if (p.includes('epic')) return 'Epic Games Store';
     if (p.includes('gog')) return 'GOG';
     if (p.includes('ubisoft')) return 'Ubisoft Connect';
     if (p.includes('itch')) return 'itch.io';
+    if (p.includes('indiegala')) return 'IndieGala';
     if (p.includes('prime') || p.includes('amazon')) return 'Prime Gaming';
     if (p.includes('playstation') || p.includes('ps4') || p.includes('ps5')) return 'PlayStation';
     if (p.includes('xbox')) return 'Xbox';
@@ -184,7 +185,7 @@ function parseGamerPower(arr, { now = new Date() } = {}) {
         out.push({
             id: `gamerpower:${g.id}`,
             source: 'gamerpower',
-            store: guessStore(g.platforms),
+            store: guessStore(g.platforms, g.title),
             title: String(g.title).replace(/\s*\((Steam|Epic Games|GOG|PC|Ubisoft|itch\.io)[^)]*\)\s*Giveaway\s*$/i, '').replace(/\s*Giveaway\s*$/i, '').trim(),
             description: g.description || null,
             url: g.open_giveaway_url || g.open_giveaway || g.gamerpower_url || null,

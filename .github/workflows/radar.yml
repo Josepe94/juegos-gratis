@@ -3,6 +3,9 @@ name: Radar de juegos gratis
 on:
   schedule:
     - cron: '7 * * * *'      # cada hora (GitHub a veces retrasa o se salta ejecuciones; el bot no repite juegos)
+    - cron: '1 15 * * 4'     # jueves 17:01 (horario de verano): cambio de juego gratis de Epic
+    - cron: '1 16 * * 4'     # jueves 17:01 (horario de invierno)
+    - cron: '9 16 * * 4'     # repetición por si GitHub retrasa la anterior
   workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
 
 permissions:

@@ -117,7 +117,9 @@ function buildDealDraft(g) {
         'Una vez canjeado, se queda en tu biblioteca para siempre.',
     ].filter(Boolean).join(' ');
     return [
-        '📝 <b>Chollo listo para Chollometro</b> (toca cada bloque para copiarlo)',
+        g.status === 'upcoming'
+            ? `⏰ <b>PREPÁRALO: este chollo se activa el ${esc(fmtDate(g.startDate))}</b>\nChollometro no lo acepta antes. Pon una alarma 2 minutos antes, ten esto abierto y publícalo en cuanto den las ${esc(new Date(g.startDate).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' }))}: en los juegos de Epic gana el primero.`
+            : '📝 <b>Chollo listo para Chollometro</b> (toca cada bloque para copiarlo)',
         '',
         '<b>Enlace:</b>',
         `<code>${esc(g.url || '')}</code>`,
@@ -248,7 +250,7 @@ async function run({ items: injected } = {}) {
         const caption = buildCaption(g, { withPromo });
         try {
             if (canPost) await postTelegram(g, caption);
-            if (canPost && CONFIG.ownerChat && g.status === 'active' && (!g.startDate || Date.parse(g.startDate) > Date.now() - 7 * 864e5)) {
+            if (canPost && CONFIG.ownerChat && (g.status === 'upcoming' || (g.status === 'active' && (!g.startDate || Date.parse(g.startDate) > Date.now() - 7 * 864e5)))) {
                 try {
                     if (g.image) {
                         try {

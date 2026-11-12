@@ -239,6 +239,13 @@ async function run({ items: injected } = {}) {
             if (canPost) await postTelegram(g, caption);
             if (canPost && CONFIG.ownerChat && g.status === 'active') {
                 try {
+                    if (g.image) {
+                        try {
+                            await tg('sendPhoto', { chat_id: CONFIG.ownerChat, photo: g.image, caption: `🖼 Imagen para el chollo de ${g.title}: mantén pulsado → Guardar` });
+                        } catch (err) {
+                            await tg('sendMessage', { chat_id: CONFIG.ownerChat, text: `🖼 Imagen: ${g.image}`, disable_web_page_preview: false });
+                        }
+                    }
                     await tg('sendMessage', { chat_id: CONFIG.ownerChat, text: buildDealDraft(g), parse_mode: 'HTML', disable_web_page_preview: true });
                 } catch (err) {
                     console.warn(`No se pudo enviar el borrador privado: ${err.message}`);

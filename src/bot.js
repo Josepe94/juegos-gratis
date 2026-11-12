@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const { fetchEpic, fetchGamerPower, mergeItems, filterItems } = require('./sources');
+const { verifyItems } = require('./verify');
 
 const ROOT = path.join(__dirname, '..');
 const STATE_FILE = path.join(ROOT, 'state.json');
@@ -226,7 +227,11 @@ async function collect() {
     try { lists.push(await fetchGamerPower({ platforms: CONFIG.platforms, types: ['game'], now })); } catch (e) { errors.push(`gamerpower: ${e.message}`); }
     if (!lists.length) throw new Error(`Todas las fuentes fallaron: ${errors.join(' | ')}`);
     if (errors.length) console.warn('Fuentes con error:', errors.join(' | '));
-    return filterItems(mergeItems(lists), { includeUpcoming: true, includeDlc: false, minWorth: CONFIG.minWorth });
+    const candidates = filterItems(mergeItems(lists), { includeUpcoming: true, includeDlc: false, minWorth: CONFIG.minWorth });
+    const { ok, rejected } = await verifyItems(candidates);
+    for (const r of rejected) console.log(`Descartado "${r.title}": ${r.reason}`);
+    console.log(`Verificados ${ok.length} de ${candidates.length} juegos.`);
+    return ok;
 }
 
 async function run({ items: injected } = {}) {

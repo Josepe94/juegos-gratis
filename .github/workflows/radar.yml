@@ -1,0 +1,40 @@
+name: Radar de juegos gratis
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'   # cada 3 horas (UTC)
+  workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Buscar juegos gratis y publicar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BRAND_NAME: ${{ vars.BRAND_NAME }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          PROMO_TEXT: ${{ vars.PROMO_TEXT }}
+          PROMO_URL: ${{ vars.PROMO_URL }}
+        run: node src/bot.js
+      - name: Guardar estado y web
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add state.json docs/
+          git diff --cached --quiet || git commit -m "Actualizar juegos gratis $(date -u +'%Y-%m-%d %H:%M')"
+          git push

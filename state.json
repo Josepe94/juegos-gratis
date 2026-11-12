@@ -1,1 +1,64 @@
-{"seen":[],"posts":0,"history":[]}
+{
+  "seen": [
+    "epic:27e33143fc9e4de8bbf76782292933d4:3be0a0d8479946d78f60d90c9442a0b4|active",
+    "gamerpower:3830|active",
+    "gamerpower:3346|active",
+    "gamerpower:3340|active",
+    "gamerpower:3331|active",
+    "gamerpower:3328|active",
+    "gamerpower:3322|active",
+    "gamerpower:3324|active"
+  ],
+  "posts": 8,
+  "history": [
+    {
+      "at": "2026-11-12T04:24:28.935Z",
+      "title": "Flotsam",
+      "store": "Epic Games Store",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:30.595Z",
+      "title": "Free itch.io Games Bundle",
+      "store": "itch.io",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:32.242Z",
+      "title": "My Darkest Witch (IndieGala)",
+      "store": "Other",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:33.898Z",
+      "title": "ANCIENT EVIL (IndieGala)",
+      "store": "Other",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:35.572Z",
+      "title": "Last Room (IndieGala)",
+      "store": "Other",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:37.226Z",
+      "title": "Best Plumber (IndieGala)",
+      "store": "Other",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:38.880Z",
+      "title": "Sausage Hunter (Indiegala)",
+      "store": "Other",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:24:40.533Z",
+      "title": "Battle Ram (IndieGala)",
+      "store": "Other",
+      "status": "active"
+    }
+  ],
+  "lastRun": "2026-11-12T04:24:42.033Z"
+}

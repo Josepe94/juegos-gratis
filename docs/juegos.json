@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T04:42:04.809Z",
+  "updated": "2026-11-12T11:24:26.356Z",
   "items": [
     {
       "id": "epic:27e33143fc9e4de8bbf76782292933d4:3be0a0d8479946d78f60d90c9442a0b4",
@@ -26,7 +26,7 @@
       "store": "itch.io",
       "title": "Free itch.io Games Bundle",
       "description": "Claim this bundle (worth $384) and download 116 games for free on itch.io! No strings attached!",
-      "url": "https://www.gamerpower.com/open/free-itch-io-games-bundle",
+      "url": "https://itch.io/b/3955/itching-for-games-3",
       "image": "https://www.gamerpower.com/offers/1b/6ae264e50edb5.jpg",
       "originalPrice": 384,
       "currency": "USD",
@@ -40,15 +40,16 @@
         "Itch.io",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/free-itch-io-games-bundle"
+      "sourceUrl": "https://www.gamerpower.com/free-itch-io-games-bundle",
+      "verified": true
     },
     {
       "id": "gamerpower:3346",
       "source": "gamerpower",
-      "store": "itch.io",
-      "title": "My Darkest Witch (IndieGala)",
+      "store": "IndieGala",
+      "title": "My Darkest Witch",
       "description": "Score My Darkest Witch for free on IndieGala! My Darkest Witch is a 2d survival arena game with endless waves of enemies.",
-      "url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
+      "url": "https://freebies.indiegala.com/my-darkest-witch",
       "image": "https://www.gamerpower.com/offers/1b/69061997da81d.jpg",
       "originalPrice": 4.99,
       "currency": "USD",
@@ -61,15 +62,16 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/my-darkest-witch-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/my-darkest-witch-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3340",
       "source": "gamerpower",
       "store": "IndieGala",
-      "title": "ANCIENT EVIL (IndieGala)",
+      "title": "ANCIENT EVIL",
       "description": "Download ANCIENT EVIL for free via IndieGala! Ancient Evil is a 2d tactical RPG with puzzle elements. Don´t miss it!",
-      "url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
+      "url": "https://freebies.indiegala.com/ancient-evil",
       "image": "https://www.gamerpower.com/offers/1b/69024dade7c16.jpg",
       "originalPrice": 4.99,
       "currency": "USD",
@@ -82,15 +84,16 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/ancient-evil-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/ancient-evil-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3331",
       "source": "gamerpower",
       "store": "IndieGala",
-      "title": "Last Room (IndieGala)",
+      "title": "Last Room",
       "description": "Dive into a world of puzzles today! Download Last Room for free on IndieGala! Last Room is a 3d puzzle game with interactive environments, medieval mysteries and secret levels.",
-      "url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
+      "url": "https://freebies.indiegala.com/last-room",
       "image": "https://www.gamerpower.com/offers/1b/68f91bd81c328.jpg",
       "originalPrice": 29.99,
       "currency": "USD",
@@ -103,15 +106,16 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/last-room-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/last-room-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3328",
       "source": "gamerpower",
       "store": "IndieGala",
-      "title": "Best Plumber (IndieGala)",
+      "title": "Best Plumber",
       "description": "Ever dreamed of being a plumber? Probably not... but now’s your chance! Grab Best Plumber for free on IndieGala and step into the boots of a young plumber!",
-      "url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
+      "url": "https://freebies.indiegala.com/best-plumber",
       "image": "https://www.gamerpower.com/offers/1b/68f40b259de93.jpg",
       "originalPrice": 29.99,
       "currency": "USD",
@@ -124,15 +128,16 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/best-plumber-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/best-plumber-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3322",
       "source": "gamerpower",
       "store": "IndieGala",
-      "title": "Sausage Hunter (Indiegala)",
+      "title": "Sausage Hunter",
       "description": "The hunt for the magic sausage starts now! Download Sausage Hunter for free on IndieGala. Sausage Hunter is a 2D platformer with hand-drawn graphics and intriguing puzzles... plus a kitten and sausages, for some reason.",
-      "url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
+      "url": "https://freebies.indiegala.com/sausage-hunter",
       "image": "https://www.gamerpower.com/offers/1b/68eadb2d6f0c4.jpg",
       "originalPrice": 29.99,
       "currency": "USD",
@@ -145,15 +150,16 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/sausage-hunter-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/sausage-hunter-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3324",
       "source": "gamerpower",
       "store": "IndieGala",
-      "title": "Battle Ram (IndieGala)",
+      "title": "Battle Ram",
       "description": "Become the battle lamb you were born to be! Battle Ram is free this week on IndieGala, download it now! Battle Ram is a 2d action-packed game with lambs and battling robots.",
-      "url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
+      "url": "https://freebies.indiegala.com/battle-ram?tap_s=1069275-d1b8f4",
       "image": "https://www.gamerpower.com/offers/1b/68efabd65f913.jpg",
       "originalPrice": 29.99,
       "currency": "USD",
@@ -166,15 +172,16 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/battle-ram-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/battle-ram-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3316",
       "source": "gamerpower",
       "store": "IndieGala",
-      "title": "Leaper (IndieGala)",
+      "title": "Leaper",
       "description": "Time to put your reflexes to the test! Download Leaper for free on IndieGala! Leaper is a 2d side-scrolling platformer with colorful pixel graphics and precise jumping mechanics. Check it out!",
-      "url": "https://www.gamerpower.com/open/leaper-pc-giveaway",
+      "url": "https://freebies.indiegala.com/leaper",
       "image": "https://www.gamerpower.com/offers/1b/68e6513c31514.jpg",
       "originalPrice": 4.99,
       "currency": "USD",
@@ -187,48 +194,8 @@
         "PC",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway"
-    },
-    {
-      "id": "gamerpower:3716",
-      "source": "gamerpower",
-      "store": "Steam",
-      "title": "Dwarven Realms (Steam) Key",
-      "description": "Claim free Steam keys for Dwarven Realms! Dwarven Realms is a 3D action-packed ARPG with epic powers and endless possibilities. Please note this Steam Key giveaway requires 10 ARP (Arena Reward Points) to claim a key. Fortunately, you can earn ARP daily for free.",
-      "url": "https://www.gamerpower.com/open/dwarven-realms-steam-key-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/6a59119a8eb8d.jpg",
-      "originalPrice": 9.99,
-      "currency": "USD",
-      "worthText": "$9.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-07-16T13:15:06.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "Steam"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/dwarven-realms-steam-key-giveaway"
-    },
-    {
-      "id": "gamerpower:3446",
-      "source": "gamerpower",
-      "store": "Other",
-      "title": "GigaBash (Stove)",
-      "description": "Score GigaBash for free via Stove and claim your place as king among Titans! GigaBash is a multiplayer arena brawler with gigantic film-inspired kaiju and fully destructible environments.",
-      "url": "https://www.gamerpower.com/open/gigabash-pc-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/69567c4ee0fa3.jpg",
-      "originalPrice": 24.99,
-      "currency": "USD",
-      "worthText": "$24.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-01-01T08:53:18.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/gigabash-pc-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:2204",
@@ -236,7 +203,7 @@
       "store": "itch.io",
       "title": "Dual Chroma: Academy Carols",
       "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
-      "url": "https://www.gamerpower.com/open/dual-chroma-academy-carols-itch-io-giveaway",
+      "url": "https://galengames.itch.io/academy-carols",
       "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
       "originalPrice": 2,
       "currency": "USD",
@@ -250,7 +217,8 @@
         "Itch.io",
         "DRM-Free"
       ],
-      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway"
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
+      "verified": true
     },
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",

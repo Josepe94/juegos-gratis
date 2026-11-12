@@ -25,6 +25,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          OWNER_CHAT_ID: ${{ vars.OWNER_CHAT_ID || '1269996613' }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BRAND_NAME: ${{ vars.BRAND_NAME }}
           SITE_URL: ${{ vars.SITE_URL }}

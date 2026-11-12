@@ -13,6 +13,7 @@ const CONFIG = {
     brand: env('BRAND_NAME', 'Radar de Juegos Gratis'),
     telegramToken: env('TELEGRAM_BOT_TOKEN'),
     telegramChat: env('TELEGRAM_CHAT_ID'), // @tucanal o id numérico
+    ownerChat: env('OWNER_CHAT_ID'), // tu id de usuario: recibes el chollo redactado para Chollometro
     discordWebhook: env('DISCORD_WEBHOOK_URL'),
     siteUrl: env('SITE_URL'), // https://usuario.github.io/repo/
     promoText: env('PROMO_TEXT'), // p. ej. "🎮 Ofertas en claves: "
@@ -96,6 +97,37 @@ async function postTelegram(g, caption) {
         }
     }
     return tg('sendMessage', { chat_id: CONFIG.telegramChat, text: caption, parse_mode: 'HTML', disable_web_page_preview: false });
+}
+
+function buildDealDraft(g) {
+    const price = fmtPrice(g);
+    const end = g.endDate ? fmtDate(g.endDate) : null;
+    const plat = g.store === 'Epic Games Store' || g.store === 'Steam' || g.store === 'GOG' || g.store === 'IndieGala' || g.store === 'itch.io' || g.store === 'Ubisoft Connect' ? 'PC' : (g.platforms || []).join(', ') || 'PC';
+    const title = `${g.title} GRATIS para ${plat} (${g.store})`.slice(0, 140);
+    const desc = [
+        `${g.store} regala ${g.title}${price ? ` (precio normal ${price})` : ''}.`,
+        end ? `Disponible gratis hasta el ${end}.` : 'Gratis por tiempo limitado.',
+        'Una vez canjeado, se queda en tu biblioteca para siempre.',
+        g.description ? `\n${String(g.description).slice(0, 400)}` : '',
+    ].filter(Boolean).join(' ');
+    return [
+        '📝 <b>Chollo listo para Chollometro</b> (toca cada bloque para copiarlo)',
+        '',
+        '<b>Enlace:</b>',
+        `<code>${esc(g.url || '')}</code>`,
+        '',
+        '<b>Título:</b>',
+        `<code>${esc(title)}</code>`,
+        '',
+        '<b>Precio:</b> 0 €' + (price ? `  ·  <b>Precio anterior:</b> ${esc(price)}` : ''),
+        end ? `<b>Fecha de fin:</b> ${esc(end)}` : '',
+        '<b>Categoría:</b> Juego gratis / Juegos de PC',
+        '',
+        '<b>Descripción:</b>',
+        `<code>${esc(desc)}</code>`,
+        '',
+        '👉 Publícalo en https://www.chollometro.com (botón + o «Publicar»)',
+    ].filter((l) => l !== null).join('\n').slice(0, 4000);
 }
 
 async function postDiscord(g) {
@@ -205,6 +237,13 @@ async function run({ items: injected } = {}) {
         const caption = buildCaption(g, { withPromo });
         try {
             if (canPost) await postTelegram(g, caption);
+            if (canPost && CONFIG.ownerChat && g.status === 'active') {
+                try {
+                    await tg('sendMessage', { chat_id: CONFIG.ownerChat, text: buildDealDraft(g), parse_mode: 'HTML', disable_web_page_preview: true });
+                } catch (err) {
+                    console.warn(`No se pudo enviar el borrador privado: ${err.message}`);
+                }
+            }
             if (!CONFIG.dryRun && CONFIG.discordWebhook) await postDiscord(g);
             if (!canPost) console.log('--- (simulado)\n' + caption.replace(/<[^>]+>/g, ''));
             seen.add(`${g.id}|${g.status}`);
@@ -234,4 +273,4 @@ if (require.main === module) {
     });
 }
 
-module.exports = { run, buildCaption, renderSite, CONFIG };
+module.exports = { run, buildCaption, buildDealDraft, renderSite, CONFIG };

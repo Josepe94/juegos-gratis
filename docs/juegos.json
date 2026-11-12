@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T04:24:42.033Z",
+  "updated": "2026-11-12T04:42:04.809Z",
   "items": [
     {
       "id": "epic:27e33143fc9e4de8bbf76782292933d4:3be0a0d8479946d78f60d90c9442a0b4",
@@ -45,7 +45,7 @@
     {
       "id": "gamerpower:3346",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "itch.io",
       "title": "My Darkest Witch (IndieGala)",
       "description": "Score My Darkest Witch for free on IndieGala! My Darkest Witch is a 2d survival arena game with endless waves of enemies.",
       "url": "https://www.gamerpower.com/open/my-darkest-witch-pc-giveaway",
@@ -66,7 +66,7 @@
     {
       "id": "gamerpower:3340",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "IndieGala",
       "title": "ANCIENT EVIL (IndieGala)",
       "description": "Download ANCIENT EVIL for free via IndieGala! Ancient Evil is a 2d tactical RPG with puzzle elements. Don´t miss it!",
       "url": "https://www.gamerpower.com/open/ancient-evil-pc-giveaway",
@@ -87,7 +87,7 @@
     {
       "id": "gamerpower:3331",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "IndieGala",
       "title": "Last Room (IndieGala)",
       "description": "Dive into a world of puzzles today! Download Last Room for free on IndieGala! Last Room is a 3d puzzle game with interactive environments, medieval mysteries and secret levels.",
       "url": "https://www.gamerpower.com/open/last-room-pc-giveaway",
@@ -108,7 +108,7 @@
     {
       "id": "gamerpower:3328",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "IndieGala",
       "title": "Best Plumber (IndieGala)",
       "description": "Ever dreamed of being a plumber? Probably not... but now’s your chance! Grab Best Plumber for free on IndieGala and step into the boots of a young plumber!",
       "url": "https://www.gamerpower.com/open/best-plumber-pc-giveaway",
@@ -129,7 +129,7 @@
     {
       "id": "gamerpower:3322",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "IndieGala",
       "title": "Sausage Hunter (Indiegala)",
       "description": "The hunt for the magic sausage starts now! Download Sausage Hunter for free on IndieGala. Sausage Hunter is a 2D platformer with hand-drawn graphics and intriguing puzzles... plus a kitten and sausages, for some reason.",
       "url": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
@@ -150,7 +150,7 @@
     {
       "id": "gamerpower:3324",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "IndieGala",
       "title": "Battle Ram (IndieGala)",
       "description": "Become the battle lamb you were born to be! Battle Ram is free this week on IndieGala, download it now! Battle Ram is a 2d action-packed game with lambs and battling robots.",
       "url": "https://www.gamerpower.com/open/battle-ram-pc-giveaway",
@@ -171,7 +171,7 @@
     {
       "id": "gamerpower:3316",
       "source": "gamerpower",
-      "store": "Other",
+      "store": "IndieGala",
       "title": "Leaper (IndieGala)",
       "description": "Time to put your reflexes to the test! Download Leaper for free on IndieGala! Leaper is a 2d side-scrolling platformer with colorful pixel graphics and precise jumping mechanics. Check it out!",
       "url": "https://www.gamerpower.com/open/leaper-pc-giveaway",

@@ -7,9 +7,14 @@
     "gamerpower:3331|active",
     "gamerpower:3328|active",
     "gamerpower:3322|active",
-    "gamerpower:3324|active"
+    "gamerpower:3324|active",
+    "gamerpower:3316|active",
+    "gamerpower:3716|active",
+    "gamerpower:3446|active",
+    "gamerpower:2204|active",
+    "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9|upcoming"
   ],
-  "posts": 8,
+  "posts": 13,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -58,7 +63,37 @@
       "title": "Battle Ram (IndieGala)",
       "store": "Other",
       "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:41:56.167Z",
+      "title": "Leaper (IndieGala)",
+      "store": "IndieGala",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:41:57.976Z",
+      "title": "Dwarven Realms (Steam) Key",
+      "store": "Steam",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:41:59.764Z",
+      "title": "GigaBash (Stove)",
+      "store": "Other",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:42:01.635Z",
+      "title": "Dual Chroma: Academy Carols",
+      "store": "itch.io",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T04:42:03.308Z",
+      "title": "Knightica",
+      "store": "Epic Games Store",
+      "status": "upcoming"
     }
   ],
-  "lastRun": "2026-11-12T04:24:42.033Z"
+  "lastRun": "2026-11-12T04:42:04.809Z"
 }

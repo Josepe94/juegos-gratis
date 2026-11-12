@@ -99,16 +99,21 @@ async function postTelegram(g, caption) {
     return tg('sendMessage', { chat_id: CONFIG.telegramChat, text: caption, parse_mode: 'HTML', disable_web_page_preview: false });
 }
 
+function fmtShort(iso) {
+    if (!iso) return null;
+    return new Date(iso).toLocaleString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' }).replace(',', '');
+}
+
 function buildDealDraft(g) {
     const price = fmtPrice(g);
     const end = g.endDate ? fmtDate(g.endDate) : null;
+    const startIso = g.startDate && Date.parse(g.startDate) > Date.now() - 864e5 ? g.startDate : new Date().toISOString();
     const plat = g.store === 'Epic Games Store' || g.store === 'Steam' || g.store === 'GOG' || g.store === 'IndieGala' || g.store === 'itch.io' || g.store === 'Ubisoft Connect' ? 'PC' : (g.platforms || []).join(', ') || 'PC';
     const title = `${g.title} GRATIS para ${plat} (${g.store})`.slice(0, 140);
     const desc = [
         `${g.store} regala ${g.title}${price ? ` (precio normal ${price})` : ''}.`,
         end ? `Disponible gratis hasta el ${end}.` : 'Gratis por tiempo limitado.',
         'Una vez canjeado, se queda en tu biblioteca para siempre.',
-        g.description ? `\n${String(g.description).slice(0, 400)}` : '',
     ].filter(Boolean).join(' ');
     return [
         '📝 <b>Chollo listo para Chollometro</b> (toca cada bloque para copiarlo)',
@@ -120,7 +125,8 @@ function buildDealDraft(g) {
         `<code>${esc(title)}</code>`,
         '',
         '<b>Precio:</b> 0 €' + (price ? `  ·  <b>Precio anterior:</b> ${esc(price)}` : ''),
-        end ? `<b>Fecha de fin:</b> ${esc(end)}` : '',
+        `<b>Fecha de inicio:</b> <code>${esc(fmtShort(startIso))}</code>`,
+        g.endDate ? `<b>Fecha de fin:</b> <code>${esc(fmtShort(g.endDate))}</code>` : '<b>Fecha de fin:</b> la tienda no la indica; déjala vacía',
         '<b>Categoría:</b> Juego gratis / Juegos de PC',
         '',
         '<b>Descripción:</b>',
@@ -237,7 +243,7 @@ async function run({ items: injected } = {}) {
         const caption = buildCaption(g, { withPromo });
         try {
             if (canPost) await postTelegram(g, caption);
-            if (canPost && CONFIG.ownerChat && g.status === 'active') {
+            if (canPost && CONFIG.ownerChat && g.status === 'active' && (!g.startDate || Date.parse(g.startDate) > Date.now() - 7 * 864e5)) {
                 try {
                     if (g.image) {
                         try {

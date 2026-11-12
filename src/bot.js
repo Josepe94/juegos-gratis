@@ -250,7 +250,7 @@ async function run({ items: injected } = {}) {
         const caption = buildCaption(g, { withPromo });
         try {
             if (canPost) await postTelegram(g, caption);
-            if (canPost && CONFIG.ownerChat && (g.status === 'upcoming' || (g.status === 'active' && (!g.startDate || Date.parse(g.startDate) > Date.now() - 7 * 864e5)))) {
+            if (canPost && CONFIG.ownerChat && g.source !== 'epic' && g.store !== 'Epic Games Store' && g.status === 'active' && (!g.startDate || Date.parse(g.startDate) > Date.now() - 7 * 864e5)) {
                 try {
                     if (g.image) {
                         try {

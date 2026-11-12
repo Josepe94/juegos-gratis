@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { fetchEpic, fetchGamerPower, mergeItems, filterItems } = require('./sources');
 const { verifyItems } = require('./verify');
+const { fetchAndroidFreebies } = require('./apps');
 
 const ROOT = path.join(__dirname, '..');
 const STATE_FILE = path.join(ROOT, 'state.json');
@@ -25,6 +26,7 @@ const CONFIG = {
     locale: env('LOCALE', 'es-ES'),
     platforms: env('GAMERPOWER_PLATFORMS', 'pc').split(',').map((s) => s.trim()).filter(Boolean),
     minWorth: Number(env('MIN_WORTH', '0')) || 0,
+    enableApps: env('ENABLE_APPS', '1') !== '0',
     dryRun: env('DRY_RUN') === '1',
 };
 
@@ -65,9 +67,10 @@ function buildCaption(g, { withPromo }) {
     if (g.status === 'upcoming') {
         lines.push(`🔜 <b>Próximamente gratis en ${esc(g.store)}</b>`);
     } else {
-        lines.push(`🎁 <b>GRATIS en ${esc(g.store)}</b>`);
+        lines.push(`🎁 <b>GRATIS en ${esc(g.store)}</b>${g.source === 'googleplay' ? (g.type === 'mobilegame' ? ' · 🎮 Juego Android' : ' · 📱 App Android') : ''}`);
     }
     lines.push(`<b>${esc(g.title)}</b>`);
+    if (g.rating) lines.push(`⭐ ${String(g.rating).replace('.', ',')} (${Number(g.ratingCount).toLocaleString('es-ES')} opiniones)`);
     const price = fmtPrice(g);
     if (price) lines.push(`💸 Precio normal: <s>${esc(price)}</s> → GRATIS`);
     if (g.status === 'upcoming' && g.startDate) lines.push(`📅 Desde: ${esc(fmtDate(g.startDate))}`);
@@ -109,12 +112,14 @@ function buildDealDraft(g) {
     const price = fmtPrice(g);
     const end = g.endDate ? fmtDate(g.endDate) : null;
     const startIso = g.startDate && Date.parse(g.startDate) > Date.now() - 864e5 ? g.startDate : new Date().toISOString();
-    const plat = g.store === 'Epic Games Store' || g.store === 'Steam' || g.store === 'GOG' || g.store === 'IndieGala' || g.store === 'itch.io' || g.store === 'Ubisoft Connect' ? 'PC' : (g.platforms || []).join(', ') || 'PC';
+    const isApp = g.source === 'googleplay';
+    const plat = isApp ? 'Android' : g.store === 'Epic Games Store' || g.store === 'Steam' || g.store === 'GOG' || g.store === 'IndieGala' || g.store === 'itch.io' || g.store === 'Ubisoft Connect' ? 'PC' : (g.platforms || []).join(', ') || 'PC';
     const title = `${g.title} GRATIS para ${plat} (${g.store})`.slice(0, 140);
     const desc = [
-        `${g.store} regala ${g.title}${price ? ` (precio normal ${price})` : ''}.`,
-        end ? `Disponible gratis hasta el ${end}.` : 'Gratis por tiempo limitado.',
-        'Una vez canjeado, se queda en tu biblioteca para siempre.',
+        isApp ? `${g.title} está gratis por tiempo limitado en Google Play${price ? ` (precio normal ${price})` : ''}.` : `${g.store} regala ${g.title}${price ? ` (precio normal ${price})` : ''}.`,
+        end ? `Disponible gratis hasta el ${end}.` : isApp ? '' : 'Gratis por tiempo limitado.',
+        isApp ? 'Una vez descargada, queda en tu cuenta de Google Play para siempre, aunque vuelva a ser de pago.' : 'Una vez canjeado, se queda en tu biblioteca para siempre.',
+        g.rating ? `Valoración en Google Play: ${String(g.rating).replace('.', ',')} sobre 5 con ${Number(g.ratingCount).toLocaleString('es-ES')} opiniones.` : '',
     ].filter(Boolean).join(' ');
     return [
         g.status === 'upcoming'
@@ -130,7 +135,7 @@ function buildDealDraft(g) {
         '<b>Precio:</b> 0 €' + (price ? `  ·  <b>Precio anterior:</b> ${esc(price)}` : ''),
         `<b>Fecha de inicio:</b> <code>${esc(fmtShort(startIso))}</code>`,
         g.endDate ? `<b>Fecha de fin:</b> <code>${esc(fmtShort(g.endDate))}</code>` : '<b>Fecha de fin:</b> la tienda no la indica; déjala vacía',
-        '<b>Categoría:</b> Juego gratis / Juegos de PC',
+        `<b>Categoría:</b> ${isApp ? (g.type === 'mobilegame' ? 'Gratis / Juegos Android' : 'Gratis / Apps Android') : 'Juego gratis / Juegos de PC'}`,
         '',
         '<b>Descripción:</b>',
         `<code>${esc(desc)}</code>`,
@@ -164,7 +169,7 @@ function renderSite(items, generatedAt) {
     const total = active.reduce((s, g) => s + (g.currency === 'EUR' || g.currency === 'USD' ? g.originalPrice || 0 : 0), 0);
     const card = (g) => `
       <article class="card">
-        ${g.image ? `<img src="${esc(g.image)}" alt="${esc(g.title)}" loading="lazy">` : ''}
+        ${g.image ? `<img src="${esc(g.image)}" alt="${esc(g.title)}" loading="lazy"${g.source === 'googleplay' ? ' class="icon"' : ''}>` : ''}
         <div class="body">
           <span class="store">${esc(g.store)}</span>
           <h3>${esc(g.title)}</h3>
@@ -192,7 +197,7 @@ h1{font-size:clamp(1.6rem,4vw,2.4rem);margin:.4em 0 .1em}h2{margin-top:1.6em}
 .sub{color:var(--muted);margin:0}.stat{display:inline-block;margin-top:12px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
-.card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}.body{padding:12px 14px 16px;display:flex;flex-direction:column;gap:4px;flex:1}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}.card img.icon{object-fit:contain;background:#0b0d11;padding:14px}.body{padding:12px 14px 16px;display:flex;flex-direction:column;gap:4px;flex:1}
 .store{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}h3{margin:0;font-size:1.05rem}
 .price,.date{margin:0;color:var(--muted);font-size:.9rem}.price b{color:var(--accent)}
 .btn{margin-top:auto;align-self:flex-start;background:var(--accent);color:#06130d;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:8px}
@@ -202,8 +207,8 @@ footer{color:var(--muted);font-size:.85rem}footer a{color:inherit}
 </head>
 <body>
 <header>
-  <h1>Juegos gratis ahora mismo</h1>
-  <p class="sub">Epic Games Store, Steam, GOG, Ubisoft e itch.io · actualizado ${esc(fmtDate(generatedAt))}</p>
+  <h1>Juegos y apps gratis ahora mismo</h1>
+  <p class="sub">Epic Games Store, Steam, GOG, itch.io y Google Play · actualizado ${esc(fmtDate(generatedAt))}</p>
   <span class="stat">${active.length} juegos gratis${total > 0 ? ` · valor aprox. ${Math.round(total)} €/$` : ''}</span>
   ${tgLink ? `<p><a class="btn" href="${esc(tgLink)}">Avisos al instante en Telegram</a></p>` : ''}
 </header>
@@ -233,7 +238,16 @@ async function collect() {
     const { ok, rejected } = await verifyItems(candidates);
     for (const r of rejected) console.log(`Descartado "${r.title}": ${r.reason}`);
     console.log(`Verificados ${ok.length} de ${candidates.length} juegos.`);
-    return ok;
+    if (!CONFIG.enableApps) return ok;
+    try {
+        const apps = await fetchAndroidFreebies();
+        for (const r of apps.rejected) console.log(`App descartada "${r.title}": ${r.reason}`);
+        console.log(`Apps Android verificadas: ${apps.items.length}.`);
+        return ok.concat(apps.items);
+    } catch (e) {
+        console.warn(`Apps Android no disponibles: ${e.message}`);
+        return ok;
+    }
 }
 
 async function run({ items: injected } = {}) {

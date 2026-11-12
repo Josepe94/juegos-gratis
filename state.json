@@ -15,9 +15,14 @@
     "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9|upcoming",
     "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9|active",
     "epic:df37f065c3f14eadbf011177396e2966:d37f3694e7a04edb8347f3cb6320f9d3|upcoming",
-    "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c|upcoming"
+    "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c|upcoming",
+    "googleplay:com.dd.mk.vip|active",
+    "googleplay:com.eapublishing.dhsw.paid|active",
+    "googleplay:equalizer.bassbooster.musicplayer.theme.pro|active",
+    "googleplay:com.pantheraplay.boxheadpremium|active",
+    "googleplay:coocent.app.tools.light.flashlight.pro|active"
   ],
-  "posts": 16,
+  "posts": 21,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -114,7 +119,37 @@
       "title": "Mark of the Deep",
       "store": "Epic Games Store",
       "status": "upcoming"
+    },
+    {
+      "at": "2026-11-12T23:28:36.146Z",
+      "title": "[VIP] Missile Dude RPG : idle",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T23:28:38.103Z",
+      "title": "Shadow Hunter: Offline Premium",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T23:28:40.058Z",
+      "title": "Equalizer FX Pro",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T23:28:42.027Z",
+      "title": "Box Head: Roguelike Premium",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-12T23:28:44.003Z",
+      "title": "Linterna LED brillante Pro",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-12T19:53:04.151Z"
+  "lastRun": "2026-11-12T23:28:45.504Z"
 }

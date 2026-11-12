@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T19:53:04.151Z",
+  "updated": "2026-11-12T23:28:45.504Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -257,6 +257,121 @@
       "platforms": [
         "PC"
       ]
+    },
+    {
+      "id": "googleplay:com.dd.mk.vip",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "[VIP] Missile Dude RPG : idle",
+      "description": "Extraer y Tear todos los portales demoníacos",
+      "developer": "Artifact Games",
+      "url": "https://play.google.com/store/apps/details?id=com.dd.mk.vip",
+      "image": "https://play-lh.googleusercontent.com/qAnjKxSRLa6XaCFl_k8XhvO0HN_b2jgBiFeNxh0nMswsFxrVlmGSNv0Dyy7J74xvkpY44ttA4Sx69vtmq9MGjCY",
+      "originalPrice": 1.89,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 90998,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.eapublishing.dhsw.paid",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Shadow Hunter: Offline Premium",
+      "description": "¡Juego de acción y aventura sin conexión en un oscuro mundo de fantasía!",
+      "developer": "EA Publishing",
+      "url": "https://play.google.com/store/apps/details?id=com.eapublishing.dhsw.paid",
+      "image": "https://play-lh.googleusercontent.com/-32RAQJYWTdHdGFv3G8517GVPD7rqF6Nf-E4CEAe8gZoZVMf8Dg4P6HqddY1PNiVRiJS-7cb3xX-Q2ILKD_tb7I",
+      "originalPrice": 1.19,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 73220,
+      "verified": true
+    },
+    {
+      "id": "googleplay:equalizer.bassbooster.musicplayer.theme.pro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Equalizer FX Pro",
+      "description": "Equalizer, Bass Booster y Volume Booster (Eq & Bass) mejoran la calidad del sonido",
+      "developer": "WetcRun",
+      "url": "https://play.google.com/store/apps/details?id=equalizer.bassbooster.musicplayer.theme.pro",
+      "image": "https://play-lh.googleusercontent.com/jWKkPf-6ul7fO9mux8E1Rju-yFg7LA9n_6Kmsm7uBt3WDNrJ_dbeqHlUyr-HX7hfINbBgeAF6IT98iyFjA0A7w",
+      "originalPrice": 3.09,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 16731,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.pantheraplay.boxheadpremium",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Box Head: Roguelike Premium",
+      "description": "Lucha contra hordas zombis con recompensas premium y mejoras exclusivas",
+      "developer": "PANTHERA GLOBAL",
+      "url": "https://play.google.com/store/apps/details?id=com.pantheraplay.boxheadpremium",
+      "image": "https://play-lh.googleusercontent.com/EjC2papobMpHz7XoO6FetRTCWcsMcmVisUjfd7EsnRtpTR6l_PHVS72oRD03xhyJP9nxoy7sDO7ua92IqXFvBFM",
+      "originalPrice": 0.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.5,
+      "ratingCount": 4581,
+      "verified": true
+    },
+    {
+      "id": "googleplay:coocent.app.tools.light.flashlight.pro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Linterna LED brillante Pro",
+      "description": "La linterna le guía con brújula digital y bajo consumo de batería",
+      "developer": "Tools Dev",
+      "url": "https://play.google.com/store/apps/details?id=coocent.app.tools.light.flashlight.pro",
+      "image": "https://play-lh.googleusercontent.com/x_-_bRnNRUFOkADswJaEJ6g641w47WbP4ALqw7Tlmqgn7pOt_qIjt3J2M_Xb0B8U349XPyiZ4FiocJNHNZW3",
+      "originalPrice": 3.39,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.7,
+      "ratingCount": 571,
+      "verified": true
     }
   ]
 }

@@ -1,32 +1,18 @@
-// Diagnóstico temporal: comprueba qué fuentes de apps gratis responden desde GitHub Actions.
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
-const urls = [
-  'https://appshunter.io/api/ios/applications?discounted=true&sort=BIGGEST_DISCOUNT&per-page=3',
-  'https://appshunter.io/api/android/applications?discounted=true&sort=BIGGEST_DISCOUNT&per-page=3',
-  'https://appshunter.io/ios/topics/apps-gone-free',
-  'https://www.app-sales.net/nowfree/',
-  'https://itunes.apple.com/lookup?id=916366645&country=es',
-  'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=es&gl=ES',
-];
+const get = async (u) => { const r = await fetch(u, { headers: { 'user-agent': UA, 'accept-language': 'es-ES,es;q=0.9' } }); return [r.status, await r.text()]; };
 (async () => {
-  for (const u of urls) {
-    try {
-      const r = await fetch(u, { headers: { 'user-agent': UA, 'accept-language': 'es-ES,es;q=0.9' } });
-      const t = await r.text();
-      console.log(`\n##### ${u}\nstatus=${r.status} final=${r.url} len=${t.length}`);
-      if (u.includes('play.google')) {
-        const ld = t.match(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/);
-        console.log('LDJSON:', ld ? ld[1].slice(0, 800) : 'none');
-        console.log('EURO snippets:', (t.match(/.{60}\d+,\d\d\s?€.{60}/g) || []).slice(0, 5));
-      } else if (u.includes('app-sales')) {
-        console.log((t.match(/play\.google\.com\/store\/apps\/details\?id=[\w.]+/g) || []).slice(0, 10));
-        const i = t.indexOf('nowfree'); console.log(t.replace(/\s+/g, ' ').slice(0, 1500));
-      } else if (u.includes('/topics/')) {
-        console.log((t.match(/apps\.apple\.com\/[^"'\s]+/g) || []).slice(0, 10));
-        console.log(t.replace(/\s+/g, ' ').slice(0, 800));
-      } else {
-        console.log(t.slice(0, 2500));
-      }
-    } catch (e) { console.log(`\n##### ${u}\nERROR ${e.message}`); }
+  const [s, t] = await get('https://www.app-sales.net/nowfree/');
+  const flat = t.replace(/\s+/g, ' ');
+  const i = flat.indexOf('id=san.si');
+  console.log('NOWFREE status', s, '\nBLOCK:', flat.slice(Math.max(0, i - 2500), i + 600));
+  const ids = [...new Set((t.match(/details\?id=([\w.]+)/g) || []).map((x) => x.split('=')[1]))].filter((x) => x !== 'net.tsapps.appsales');
+  console.log('IDS', ids.length, ids.slice(0, 30));
+  for (const id of ids.slice(0, 3)) {
+    const [ps, p] = await get(`https://play.google.com/store/apps/details?id=${id}&hl=es&gl=ES`);
+    const ld = p.match(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/);
+    console.log(`\n=== ${id} status=${ps}\nLD: ${ld ? ld[1].slice(0, 700) : 'none'}`);
+    console.log('PRICE ARRAYS:', (p.match(/\[\[\d+,"EUR","[^"]*"\]\][^\]]{0,200}/g) || []).slice(0, 4));
+    console.log('STRIKE:', (p.match(/.{80}(?:<s>|text-decoration: line-through|aria-label="[^"]*precio[^"]*").{120}/gi) || []).slice(0, 4));
+    console.log('EURO:', (p.match(/.{50}\d+,\d\d\s?€.{50}/g) || []).slice(0, 6));
   }
 })();

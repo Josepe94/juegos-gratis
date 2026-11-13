@@ -106,7 +106,7 @@ function selectBoe(items) {
         const type = classify(it.title);
         if (!type) continue;
         const murcia = MURCIA_RE.test(blob);
-        const national = !murcia && /convoca(n)? (el )?procesos? selectivos? para (el )?ingreso/i.test(it.title) && !/ADMINISTRACI[OÓ]N LOCAL|UNIVERSIDADES/i.test(it.department);
+        const national = !murcia && type.label === 'Convocatoria' && /convoca(n)? (el |los )?(procesos? selectivos?|pruebas selectivas)/i.test(it.title) && !/ADMINISTRACI[OÓ]N LOCAL|UNIVERSIDADES/i.test(it.department);
         if (!murcia && !national) continue;
         out.push({ ...it, type, scope: murcia ? 'murcia' : 'nacional', entity: murcia ? extractEntity(it.title, it.department) : it.department, plazas: extractPlazas(it.title) });
     }
@@ -186,7 +186,8 @@ async function run({ fetchImpl = fetch } = {}) {
             for (const raw of rss.split('<item>').slice(1, 60)) {
                 const t = (raw.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '';
                 const c = [...raw.matchAll(/<category>([\s\S]*?)<\/category>/g)].map((m) => m[1]).join(' / ');
-                console.log(`[debug] BORM ${c.replace(/<!\[CDATA\[|\]\]>/g, '').slice(0, 80)} :: ${t.replace(/<!\[CDATA\[|\]\]>/g, '').slice(0, 150)}`);
+                const clean = (x) => x.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/\s+/g, ' ').trim();
+                console.log(`[debug] BORM ${clean(t).slice(0, 230)} || ${clean(c).slice(0, 60)}`);
             }
         }
         found.push(...parseBormRss(rss));

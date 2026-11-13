@@ -1,0 +1,56 @@
+name: Canales tematicos
+
+on:
+  schedule:
+    - cron: '37 * * * *'
+  workflow_dispatch:
+    inputs:
+      canales:
+        description: 'Canales a ejecutar (vacío = todos). Ej: oposiciones vuelos'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Simulación (1 = no publica nada)'
+        required: false
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nichos
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Ejecutar canales
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          OWNER_CHAT_ID: ${{ vars.OWNER_CHAT_ID || '1269996613' }}
+          OPOS_CHAT_ID: ${{ vars.OPOS_CHAT_ID }}
+          VUELOS_CHAT_ID: ${{ vars.VUELOS_CHAT_ID }}
+          MODA_CHAT_ID: ${{ vars.MODA_CHAT_ID }}
+          SUPER_CHAT_ID: ${{ vars.SUPER_CHAT_ID }}
+          TP_TOKEN: ${{ secrets.TP_TOKEN }}
+          TP_MARKER: ${{ vars.TP_MARKER }}
+          VUELOS_ORIGINS: ${{ vars.VUELOS_ORIGINS }}
+          MODA_FEEDS: ${{ secrets.MODA_FEEDS }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: node nichos/run.js ${{ github.event.inputs.canales }}
+      - name: Guardar estado
+        if: ${{ github.event.inputs.dry_run != '1' }}
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add nichos/state
+          if ! git diff --cached --quiet; then
+            git commit -m "Estado de canales temáticos $(date -u +'%Y-%m-%d %H:%M')"
+            for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+          fi

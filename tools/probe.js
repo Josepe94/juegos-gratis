@@ -1,18 +1,23 @@
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 (async () => {
-  for (const u of ['https://www.lidl.es/es/ofertas', 'https://www.lidl.es/c/ofertas-de-la-semana/a10008735', 'https://www.lidl.es/static/sitemap.xml', 'https://www.aldi.es/ofertas.html', 'https://www.aldi.es/robots.txt', 'https://www.carrefour.es/supermercado/ofertas', 'https://www.eroski.es/robots.txt', 'https://www.alcampo.es/robots.txt', 'https://www.consum.es/robots.txt']) {
-    try {
-      const r = await fetch(u, { headers: { 'user-agent': UA, 'accept-language': 'es-ES' } });
-      const t = await r.text();
-      const flat = t.replace(/\s+/g, ' ');
-      console.log(`\n##### ${u}\nstatus=${r.status} final=${r.url} len=${t.length}`);
-      if (u.includes('robots') ) console.log(flat.slice(0, 700));
-      else if (u.includes('sitemap')) console.log((t.match(/<loc>[^<]*(oferta|semana|c\/)[^<]*<\/loc>/gi) || []).slice(0, 20));
-      else {
-        console.log('TITLE', (flat.match(/<title>([^<]*)/) || [])[1]);
-        console.log('JSON hints', (flat.match(/(__NEXT_DATA__|__NUXT__|data-grid-data|application\/ld\+json|"price"|data-price|product-grid)/g) || []).slice(0, 10));
-        console.log('PRICES', (flat.match(/.{80}\d+,\d\d\s?€.{40}/g) || []).slice(0, 4));
+  const r = await fetch('https://www.aldi.es/ofertas.html', { headers: { 'user-agent': UA, 'accept-language': 'es-ES' } });
+  const t = await r.text();
+  const m = t.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  console.log('NEXT_DATA', !!m, m ? m[1].length : 0);
+  let found = 0;
+  const seen = new Set();
+  function walk(o, p, depth) {
+    if (!o || typeof o !== 'object' || depth > 40) return;
+    if (!Array.isArray(o)) {
+      const keys = Object.keys(o);
+      if (keys.some((k) => /price/i.test(k)) && keys.some((k) => /name|title/i.test(k)) && found < 3) {
+        const sig = keys.sort().join(',');
+        if (!seen.has(sig)) { seen.add(sig); found++; console.log('\nPATH', p, '\nKEYS', keys.join(','), '\nSAMPLE', JSON.stringify(o).slice(0, 1800)); }
       }
-    } catch (e) { console.log(`\n##### ${u}\nERROR ${e.message}`); }
+    }
+    for (const [k, v] of Object.entries(o)) walk(typeof v === 'string' && v.startsWith('{') ? (() => { try { return JSON.parse(v); } catch { return null; } })() : v, p + '.' + k, depth + 1);
   }
+  if (m) walk(JSON.parse(m[1]), '$', 0);
+  // también contar ofertas y ver estructura de fechas de validez
+  console.log('\nVALID hints', (t.match(/.{60}(validFrom|validTo|startDate|endDate|desde el|hasta el).{60}/gi) || []).slice(0, 6));
 })();

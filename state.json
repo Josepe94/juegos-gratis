@@ -20,9 +20,11 @@
     "googleplay:com.eapublishing.dhsw.paid|active",
     "googleplay:equalizer.bassbooster.musicplayer.theme.pro|active",
     "googleplay:com.pantheraplay.boxheadpremium|active",
-    "googleplay:coocent.app.tools.light.flashlight.pro|active"
+    "googleplay:coocent.app.tools.light.flashlight.pro|active",
+    "googleplay:com.ninetailgames.roguehearts.paid|active",
+    "googleplay:coocent.app.tools.soundmeter.noisedetector.pro|active"
   ],
-  "posts": 21,
+  "posts": 23,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -149,7 +151,19 @@
       "title": "Linterna LED brillante Pro",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-13T07:52:14.903Z",
+      "title": "Rogue Hearts",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-13T07:52:16.873Z",
+      "title": "Medidor de sonido y detector",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-13T01:01:54.140Z"
+  "lastRun": "2026-11-13T07:52:18.374Z"
 }

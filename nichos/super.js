@@ -58,7 +58,14 @@ function selectTop(products) {
     good.sort((a, b) => b.discount - a.discount || a.price - b.price);
     // variedad: como mucho 3 por categoría
     const perCat = {};
-    return good.filter((p) => (perCat[p.category] = (perCat[p.category] || 0) + 1) <= 3).slice(0, CFG.top);
+    const brands = new Set();
+    return good.filter((p) => {
+        const b = p.brand.toLowerCase();
+        if (b && brands.has(b)) return false;
+        if ((perCat[p.category] = (perCat[p.category] || 0) + 1) > 3) return false;
+        if (b) brands.add(b);
+        return true;
+    }).slice(0, CFG.top);
 }
 
 const eur = (n) => n.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';

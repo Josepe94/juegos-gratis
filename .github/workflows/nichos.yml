@@ -43,6 +43,7 @@ jobs:
           VUELOS_ORIGINS: ${{ vars.VUELOS_ORIGINS }}
           MODA_FEEDS: ${{ secrets.MODA_FEEDS }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          DEBUG: ${{ github.event.inputs.dry_run || '0' }}
         run: node nichos/run.js ${{ github.event.inputs.canales }}
       - name: Guardar estado
         if: ${{ github.event.inputs.dry_run != '1' }}

@@ -169,13 +169,27 @@ async function run({ fetchImpl = fetch } = {}) {
         const day = madridDate(new Date(Date.now() - offset * 864e5));
         try {
             const json = await http(`https://www.boe.es/datosabiertos/api/boe/sumario/${day.replace(/-/g, '')}`, { as: 'json', headers: { accept: 'application/json' }, fetchImpl });
-            found.push(...selectBoe(parseBoeSumario(json, day)));
+            const all = parseBoeSumario(json, day);
+            if (process.env.DEBUG === '1') {
+                const secs = arr(json && json.data && json.data.sumario && json.data.sumario.diario).flatMap((d) => arr(d.seccion).map((x) => `${x.codigo}:${x.nombre}`));
+                console.log(`[debug] BOE ${day} secciones: ${secs.join(' | ')} · items oposiciones: ${all.length}`);
+                for (const x of all.slice(0, 40)) console.log(`[debug] BOE ${x.department} :: ${x.title.slice(0, 170)}`);
+            }
+            found.push(...selectBoe(all));
         } catch (err) {
             if (!/HTTP 404/.test(err.message)) console.warn(`[${NAME}] BOE ${day}: ${err.message}`);
         }
     }
     try {
-        found.push(...parseBormRss(await http('https://www.borm.es/rss/boletin.xml', { fetchImpl })));
+        const rss = await http('https://www.borm.es/rss/boletin.xml', { fetchImpl });
+        if (process.env.DEBUG === '1') {
+            for (const raw of rss.split('<item>').slice(1, 60)) {
+                const t = (raw.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '';
+                const c = [...raw.matchAll(/<category>([\s\S]*?)<\/category>/g)].map((m) => m[1]).join(' / ');
+                console.log(`[debug] BORM ${c.replace(/<!\[CDATA\[|\]\]>/g, '').slice(0, 80)} :: ${t.replace(/<!\[CDATA\[|\]\]>/g, '').slice(0, 150)}`);
+            }
+        }
+        found.push(...parseBormRss(rss));
     } catch (err) {
         console.warn(`[${NAME}] BORM: ${err.message}`);
     }

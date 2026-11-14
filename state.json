@@ -22,9 +22,10 @@
     "googleplay:com.pantheraplay.boxheadpremium|active",
     "googleplay:coocent.app.tools.light.flashlight.pro|active",
     "googleplay:com.ninetailgames.roguehearts.paid|active",
-    "googleplay:coocent.app.tools.soundmeter.noisedetector.pro|active"
+    "googleplay:coocent.app.tools.soundmeter.noisedetector.pro|active",
+    "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro|active"
   ],
-  "posts": 23,
+  "posts": 24,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -163,7 +164,13 @@
       "title": "Medidor de sonido y detector",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-14T02:01:04.101Z",
+      "title": "Water Sort - Color Puzzle Pro",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-14T01:01:00.283Z"
+  "lastRun": "2026-11-14T02:01:05.601Z"
 }

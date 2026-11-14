@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T01:01:00.283Z",
+  "updated": "2026-11-14T02:01:05.601Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -259,29 +259,6 @@
       ]
     },
     {
-      "id": "googleplay:com.ninetailgames.roguehearts.paid",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Rogue Hearts",
-      "description": "Rompe retos y pruebas al controlar directamente el personaje.",
-      "developer": "Ninetail Games",
-      "url": "https://play.google.com/store/apps/details?id=com.ninetailgames.roguehearts.paid",
-      "image": "https://play-lh.googleusercontent.com/ir2-hjVp9D-H7Ee3yctUXyOiVf_nPV5B7_KQOMLYXB4_-Bwx1xCUCiESfeIRbAzOaUZr4tSO0NeFthqhIUwBjw",
-      "originalPrice": 0.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.3,
-      "ratingCount": 17587,
-      "verified": true
-    },
-    {
       "id": "googleplay:coocent.app.tools.soundmeter.noisedetector.pro",
       "source": "googleplay",
       "store": "Google Play",
@@ -302,6 +279,29 @@
       ],
       "rating": 4.6,
       "ratingCount": 2066,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Water Sort - Color Puzzle Pro",
+      "description": "¡Disfruta jugando sin anuncios molestos con múltiples niveles diseñados inteligentemente!",
+      "developer": "A.V.A - Smart Games",
+      "url": "https://play.google.com/store/apps/details?id=com.IQPuzzlesGames.WaterSortColorPuzzlePro",
+      "image": "https://play-lh.googleusercontent.com/2M04pxhH6ltdHmievjeE_0hGVtcbjEPlTjRc6LGtNUaJMwJKnHrloXEwB_CLNB48DbulVqpNWcr0junEQiNqpw",
+      "originalPrice": 3.39,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 1121,
       "verified": true
     }
   ]

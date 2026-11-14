@@ -1,9 +1,10 @@
 {
  "seen": [
   "boe:BOE-A-2026-23691",
-  "boe:BOE-A-2026-23694"
+  "boe:BOE-A-2026-23694",
+  "borm:https://www.borm.es/services/anuncio/846297/pdf"
  ],
  "lastBoe": null,
- "previews": 2,
- "lastRun": "2026-11-13T23:01:03.495Z"
+ "previews": 3,
+ "lastRun": "2026-11-14T00:01:20.526Z"
 }

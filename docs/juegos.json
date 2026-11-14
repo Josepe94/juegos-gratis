@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T19:01:12.769Z",
+  "updated": "2026-11-14T20:01:05.663Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -41,28 +41,6 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/free-itch-io-games-bundle",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3346",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "My Darkest Witch",
-      "description": "Score My Darkest Witch for free on IndieGala! My Darkest Witch is a 2d survival arena game with endless waves of enemies.",
-      "url": "https://freebies.indiegala.com/my-darkest-witch",
-      "image": "https://www.gamerpower.com/offers/1b/69061997da81d.jpg",
-      "originalPrice": 4.99,
-      "currency": "USD",
-      "worthText": "$4.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-10-30T13:33:46.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/my-darkest-witch-pc-giveaway",
       "verified": true
     },
     {
@@ -278,19 +256,19 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 5978,
+      "ratingCount": 5979,
       "verified": true
     },
     {
-      "id": "googleplay:coocent.app.tools.soundmeter.noisedetector.pro",
+      "id": "googleplay:com.snagbricks",
       "source": "googleplay",
       "store": "Google Play",
-      "title": "Medidor de sonido y detector",
-      "description": "El medidor de sonido PRO sensible ayuda a detectar la contaminación acústica",
-      "developer": "Tools Dev",
-      "url": "https://play.google.com/store/apps/details?id=coocent.app.tools.soundmeter.noisedetector.pro",
-      "image": "https://play-lh.googleusercontent.com/SUuPI7lXiEdtabJldnNiR6YDBqNtr3ra_fe-Q07FNJaxIhF8NQGhLxKcg1tIjyn-kfE96ran9jFkj1vywy1i7g",
-      "originalPrice": 3.29,
+      "title": "SnagBricks Auditoría del sitio",
+      "description": "Organice la auditoría del sitio, los enganches",
+      "developer": "Appculus – Audit, Inspection, Checklists & Utility",
+      "url": "https://play.google.com/store/apps/details?id=com.snagbricks",
+      "image": "https://play-lh.googleusercontent.com/MP5VtROmn8Bm5jecjOWh6fGN3k72aqE5oDAoJaWPCcTA4b4UElkjemVXpwuYZChTUIIcjzd-FNQzyc27xnKOKUw",
+      "originalPrice": 5.99,
       "currency": "EUR",
       "worthText": null,
       "type": "app",
@@ -300,8 +278,8 @@
       "platforms": [
         "Android"
       ],
-      "rating": 4.6,
-      "ratingCount": 2068,
+      "rating": 4.5,
+      "ratingCount": 1136,
       "verified": true
     },
     {

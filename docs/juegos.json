@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T03:08:07.157Z",
+  "updated": "2026-11-14T04:01:08.538Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -325,6 +325,52 @@
       ],
       "rating": 4.6,
       "ratingCount": 1095,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.swiperylab.speedupvideo",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Video Speed Editor",
+      "description": "Creador y editor de videos en cámara lenta y acelerada. Modificador y controlador de velocidad de video.",
+      "developer": "SwiperyLab",
+      "url": "https://play.google.com/store/apps/details?id=com.swiperylab.speedupvideo",
+      "image": "https://play-lh.googleusercontent.com/HnSI-3HzhDGq9r2AxCvbqZ-rY8S3RbhmWdXwWQGOArMH6NYxA0ZIRTonTbY7YYXxT7MgMj01brPX3k4nh9tQGA",
+      "originalPrice": 5.49,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 370,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.amoledwatchfaces.react",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "React: Watch face",
+      "description": "Carátula del reloj Wear OS compatible con la batería. Muchos estilos de color y complicaciones personalizadas.",
+      "developer": "amoledwatchfaces™",
+      "url": "https://play.google.com/store/apps/details?id=com.amoledwatchfaces.react",
+      "image": "https://play-lh.googleusercontent.com/hepbwMD9fYqFvy77y6XKsGRkSq9SDdp3yZZKFWtzsXf3X-5cBZBRknkO3z2WE9wUaYS2Lc390JBROIaqMRTZmYU",
+      "originalPrice": 1.49,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 248,
       "verified": true
     }
   ]

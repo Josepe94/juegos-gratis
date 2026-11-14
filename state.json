@@ -24,9 +24,11 @@
     "googleplay:com.ninetailgames.roguehearts.paid|active",
     "googleplay:coocent.app.tools.soundmeter.noisedetector.pro|active",
     "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro|active",
-    "googleplay:com.livezen.BurningSky.vip|active"
+    "googleplay:com.livezen.BurningSky.vip|active",
+    "googleplay:com.swiperylab.speedupvideo|active",
+    "googleplay:com.amoledwatchfaces.react|active"
   ],
-  "posts": 25,
+  "posts": 27,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -177,7 +179,19 @@
       "title": "Burning Sky VIP",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-14T04:01:05.104Z",
+      "title": "Video Speed Editor",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-14T04:01:07.037Z",
+      "title": "React: Watch face",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-14T03:08:07.157Z"
+  "lastRun": "2026-11-14T04:01:08.538Z"
 }

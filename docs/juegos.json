@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T02:01:05.601Z",
+  "updated": "2026-11-14T03:01:08.670Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -302,6 +302,29 @@
       ],
       "rating": 4.4,
       "ratingCount": 1121,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.livezen.BurningSky.vip",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Burning Sky VIP",
+      "description": "¡Domina los combates aéreos con los mejores cazas! Un shooter 3D estilo arcade.",
+      "developer": "SHMUP Games",
+      "url": "https://play.google.com/store/apps/details?id=com.livezen.BurningSky.vip",
+      "image": "https://play-lh.googleusercontent.com/Atj-pZ2tuJ_dpg3XG48wDL15EjsJmBGU-NxpRjSRnROrgsVU8_Ja7tWFvFAK68ZzlqFD4c7uRPxFwKmb28OdTg",
+      "originalPrice": 1.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 1095,
       "verified": true
     }
   ]

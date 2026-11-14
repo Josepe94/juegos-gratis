@@ -23,9 +23,10 @@
     "googleplay:coocent.app.tools.light.flashlight.pro|active",
     "googleplay:com.ninetailgames.roguehearts.paid|active",
     "googleplay:coocent.app.tools.soundmeter.noisedetector.pro|active",
-    "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro|active"
+    "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro|active",
+    "googleplay:com.livezen.BurningSky.vip|active"
   ],
-  "posts": 24,
+  "posts": 25,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -170,7 +171,13 @@
       "title": "Water Sort - Color Puzzle Pro",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-14T03:01:07.170Z",
+      "title": "Burning Sky VIP",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-14T02:01:05.601Z"
+  "lastRun": "2026-11-14T03:01:08.670Z"
 }

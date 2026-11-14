@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T08:01:10.095Z",
+  "updated": "2026-11-14T09:01:08.100Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -259,6 +259,29 @@
       ]
     },
     {
+      "id": "googleplay:com.app.protector.locker.pro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "AppLock PRO – Bloquear Apps",
+      "description": "Bloquea apps, fotos y vídeos con huella dactilar, cara, PIN o patrón.",
+      "developer": "Apps360 Team",
+      "url": "https://play.google.com/store/apps/details?id=com.app.protector.locker.pro",
+      "image": "https://play-lh.googleusercontent.com/0-LzOpDk9VLLEbd1QaiUwsrqi_VJAFQlcVA59uzHe5iUYnNPej_gHS7eO2JfSfb5RLTu8Tr9LtCTIGhWlYwI",
+      "originalPrice": 6.49,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 5978,
+      "verified": true
+    },
+    {
       "id": "googleplay:coocent.app.tools.soundmeter.noisedetector.pro",
       "source": "googleplay",
       "store": "Google Play",
@@ -278,7 +301,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 2067,
+      "ratingCount": 2068,
       "verified": true
     },
     {

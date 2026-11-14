@@ -26,9 +26,10 @@
     "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro|active",
     "googleplay:com.livezen.BurningSky.vip|active",
     "googleplay:com.swiperylab.speedupvideo|active",
-    "googleplay:com.amoledwatchfaces.react|active"
+    "googleplay:com.amoledwatchfaces.react|active",
+    "googleplay:com.app.protector.locker.pro|active"
   ],
-  "posts": 27,
+  "posts": 28,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -191,7 +192,13 @@
       "title": "React: Watch face",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-14T09:01:06.598Z",
+      "title": "AppLock PRO – Bloquear Apps",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-14T08:01:10.095Z"
+  "lastRun": "2026-11-14T09:01:08.100Z"
 }

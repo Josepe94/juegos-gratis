@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T12:01:07.552Z",
+  "updated": "2026-11-15T13:01:05.211Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -278,7 +278,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 5980,
+      "ratingCount": 5981,
       "verified": true
     },
     {
@@ -305,29 +305,6 @@
       "verified": true
     },
     {
-      "id": "googleplay:com.IQPuzzlesGames.WaterSortColorPuzzlePro",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Water Sort - Color Puzzle Pro",
-      "description": "¡Disfruta jugando sin anuncios molestos con múltiples niveles diseñados inteligentemente!",
-      "developer": "A.V.A - Smart Games",
-      "url": "https://play.google.com/store/apps/details?id=com.IQPuzzlesGames.WaterSortColorPuzzlePro",
-      "image": "https://play-lh.googleusercontent.com/2M04pxhH6ltdHmievjeE_0hGVtcbjEPlTjRc6LGtNUaJMwJKnHrloXEwB_CLNB48DbulVqpNWcr0junEQiNqpw",
-      "originalPrice": 3.39,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.4,
-      "ratingCount": 1123,
-      "verified": true
-    },
-    {
       "id": "googleplay:com.livezen.BurningSky.vip",
       "source": "googleplay",
       "store": "Google Play",
@@ -348,6 +325,29 @@
       ],
       "rating": 4.6,
       "ratingCount": 1096,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.smartgames.word.puzzle.block.crush",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Words Search - Word Puzzles",
+      "description": "Disfruta de más de 2000 niveles únicos, ¡No se requiere conexión a Internet!",
+      "developer": "A.V.A - Smart Games",
+      "url": "https://play.google.com/store/apps/details?id=com.smartgames.word.puzzle.block.crush",
+      "image": "https://play-lh.googleusercontent.com/jeUIvpfeP1cDC4f8hs6UnunUNirPyLwTWlobPdtZZacmzT-Qn3zzviMmzTy0UqtkgOj5dCp2LQzazVVwd1mpRvk",
+      "originalPrice": 2.69,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.1,
+      "ratingCount": 588,
       "verified": true
     },
     {

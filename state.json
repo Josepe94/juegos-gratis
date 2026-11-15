@@ -28,9 +28,10 @@
     "googleplay:com.swiperylab.speedupvideo|active",
     "googleplay:com.amoledwatchfaces.react|active",
     "googleplay:com.app.protector.locker.pro|active",
-    "googleplay:com.snagbricks|active"
+    "googleplay:com.snagbricks|active",
+    "googleplay:com.smartgames.word.puzzle.block.crush|active"
   ],
-  "posts": 29,
+  "posts": 30,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -205,7 +206,13 @@
       "title": "SnagBricks Auditoría del sitio",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-15T13:01:03.710Z",
+      "title": "Words Search - Word Puzzles",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-15T12:01:07.552Z"
+  "lastRun": "2026-11-15T13:01:05.211Z"
 }

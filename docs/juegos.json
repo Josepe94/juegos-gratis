@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T09:01:26.964Z",
+  "updated": "2026-11-16T10:01:16.258Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -173,6 +173,28 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/battle-ram-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:3316",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "Leaper",
+      "description": "Time to put your reflexes to the test! Download Leaper for free on IndieGala! Leaper is a 2d side-scrolling platformer with colorful pixel graphics and precise jumping mechanics. Check it out!",
+      "url": "https://freebies.indiegala.com/leaper",
+      "image": "https://www.gamerpower.com/offers/1b/68e6513c31514.jpg",
+      "originalPrice": 4.99,
+      "currency": "USD",
+      "worthText": "$4.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-08-26T07:55:48.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway",
       "verified": true
     },
     {

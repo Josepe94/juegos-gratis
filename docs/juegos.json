@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T23:01:06.835Z",
+  "updated": "2026-11-16T00:01:14.855Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -278,7 +278,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 5983,
+      "ratingCount": 5984,
       "verified": true
     },
     {
@@ -393,7 +393,7 @@
         "Android"
       ],
       "rating": 4.4,
-      "ratingCount": 250,
+      "ratingCount": 251,
       "verified": true
     }
   ]

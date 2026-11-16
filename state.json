@@ -29,9 +29,10 @@
     "googleplay:com.amoledwatchfaces.react|active",
     "googleplay:com.app.protector.locker.pro|active",
     "googleplay:com.snagbricks|active",
-    "googleplay:com.smartgames.word.puzzle.block.crush|active"
+    "googleplay:com.smartgames.word.puzzle.block.crush|active",
+    "googleplay:app.tools.soundmeter.decibel.noisedetector.pro|active"
   ],
-  "posts": 30,
+  "posts": 31,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -212,7 +213,13 @@
       "title": "Words Search - Word Puzzles",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-16T02:41:56.463Z",
+      "title": "Medidor de sonido y decibelios",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-16T02:01:08.144Z"
+  "lastRun": "2026-11-16T02:41:57.964Z"
 }

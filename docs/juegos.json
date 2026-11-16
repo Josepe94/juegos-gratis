@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T02:01:08.144Z",
+  "updated": "2026-11-16T02:41:57.964Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -279,6 +279,29 @@
       ],
       "rating": 4.6,
       "ratingCount": 5984,
+      "verified": true
+    },
+    {
+      "id": "googleplay:app.tools.soundmeter.decibel.noisedetector.pro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Medidor de sonido y decibelios",
+      "description": "Mida el ruido ambiental con un medidor de sonido y conozca el valor de decibeles",
+      "developer": "Tools Dev",
+      "url": "https://play.google.com/store/apps/details?id=app.tools.soundmeter.decibel.noisedetector.pro",
+      "image": "https://play-lh.googleusercontent.com/iTo6AAhrvKRQEbB8lR7XKBafKeT1RpUCg1pBT-s45s-FLx1hDcPKIjGUA8ec44BgRkjQXrOVKR_3yCA8KoN2WA",
+      "originalPrice": 3.29,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.7,
+      "ratingCount": 4404,
       "verified": true
     },
     {

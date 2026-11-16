@@ -2,9 +2,11 @@
  "seen": [
   "boe:BOE-A-2026-23691",
   "boe:BOE-A-2026-23694",
-  "borm:https://www.borm.es/services/anuncio/846297/pdf"
+  "borm:https://www.borm.es/services/anuncio/846297/pdf",
+  "borm:https://www.borm.es/services/anuncio/846320/pdf",
+  "borm:https://www.borm.es/services/anuncio/846334/pdf"
  ],
  "lastBoe": null,
- "previews": 3,
- "lastRun": "2026-11-15T23:01:03.226Z"
+ "previews": 5,
+ "lastRun": "2026-11-16T00:01:07.887Z"
 }

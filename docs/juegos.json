@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T12:01:09.028Z",
+  "updated": "2026-11-16T13:01:16.264Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -219,25 +219,6 @@
       ],
       "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
       "verified": true
-    },
-    {
-      "id": "epic:df37f065c3f14eadbf011177396e2966:d37f3694e7a04edb8347f3cb6320f9d3",
-      "source": "epic",
-      "store": "Epic Games Store",
-      "title": "Alien: Isolation",
-      "description": "Descubre el verdadero significado del terror en Alien: Isolation, un juego de horror y supervivencia que transcurre en un ambiente de constante tensión y peligro...   Creado con el motor de juego CATHODE™.",
-      "url": "https://store.epicgames.com/es-ES/p/alien-isolation",
-      "image": "https://cdn1.epicgames.com/df37f065c3f14eadbf011177396e2966/offer/EGS_AlienIsolation_CreativeAssembly_S5-1920x1080-1cf3b9a86adcefeebf903451b1b3fb49.jpg",
-      "originalPrice": 39.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "game",
-      "status": "upcoming",
-      "startDate": "2026-11-19T16:00:00.000Z",
-      "endDate": "2026-11-26T16:00:00.000Z",
-      "platforms": [
-        "PC"
-      ]
     },
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",

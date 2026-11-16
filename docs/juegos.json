@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T05:01:13.442Z",
+  "updated": "2026-11-16T06:01:05.245Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -348,29 +348,6 @@
       ],
       "rating": 4.6,
       "ratingCount": 1096,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.smartgames.word.puzzle.block.crush",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Words Search - Word Puzzles",
-      "description": "Disfruta de más de 2000 niveles únicos, ¡No se requiere conexión a Internet!",
-      "developer": "A.V.A - Smart Games",
-      "url": "https://play.google.com/store/apps/details?id=com.smartgames.word.puzzle.block.crush",
-      "image": "https://play-lh.googleusercontent.com/jeUIvpfeP1cDC4f8hs6UnunUNirPyLwTWlobPdtZZacmzT-Qn3zzviMmzTy0UqtkgOj5dCp2LQzazVVwd1mpRvk",
-      "originalPrice": 2.69,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.1,
-      "ratingCount": 589,
       "verified": true
     },
     {

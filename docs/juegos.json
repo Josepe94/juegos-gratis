@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T01:01:06.735Z",
+  "updated": "2026-11-17T02:01:18.905Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -286,6 +286,29 @@
       "verified": true
     },
     {
+      "id": "googleplay:com.devvisiongames.dglandlight.survival",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Dead God Land - Light Survival",
+      "description": "¡Los objetos comprados no desaparecen! ¡Disfruta de tu supervivencia!",
+      "developer": "DevVision Games",
+      "url": "https://play.google.com/store/apps/details?id=com.devvisiongames.dglandlight.survival",
+      "image": "https://play-lh.googleusercontent.com/4Xp5-BN8_-tioeOuMJrxB7LCg2SxyaILG_1PdPSdVeFZk6L3bBjUzJgYxwShZfzOPiVRQLtMtFcVYEjuN74f3g",
+      "originalPrice": 7.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 2214,
+      "verified": true
+    },
+    {
       "id": "googleplay:com.livezen.BurningSky.vip",
       "source": "googleplay",
       "store": "Google Play",
@@ -355,15 +378,15 @@
       "verified": true
     },
     {
-      "id": "googleplay:com.amoledwatchfaces.react",
+      "id": "googleplay:com.amoledwatchfaces.materialyou",
       "source": "googleplay",
       "store": "Google Play",
-      "title": "React: Watch face",
-      "description": "Carátula del reloj Wear OS compatible con la batería. Muchos estilos de color y complicaciones personalizadas.",
+      "title": "Material You Watch Face",
+      "description": "Creado para Wear OS. Material Tu diseñas. Amigable con la batería. Personalizable.",
       "developer": "amoledwatchfaces™",
-      "url": "https://play.google.com/store/apps/details?id=com.amoledwatchfaces.react",
-      "image": "https://play-lh.googleusercontent.com/hepbwMD9fYqFvy77y6XKsGRkSq9SDdp3yZZKFWtzsXf3X-5cBZBRknkO3z2WE9wUaYS2Lc390JBROIaqMRTZmYU",
-      "originalPrice": 1.49,
+      "url": "https://play.google.com/store/apps/details?id=com.amoledwatchfaces.materialyou",
+      "image": "https://play-lh.googleusercontent.com/MmZw3WBbdb9sugIrpG4iC5c_WoiUCSxvkx9mO49O15Qto--ewpVIIVC_2f2hb7PR6Ml9qFL2iuoJVFNRPNrk",
+      "originalPrice": 0.99,
       "currency": "EUR",
       "worthText": null,
       "type": "app",
@@ -373,8 +396,8 @@
       "platforms": [
         "Android"
       ],
-      "rating": 4.4,
-      "ratingCount": 253,
+      "rating": 4.9,
+      "ratingCount": 350,
       "verified": true
     }
   ]

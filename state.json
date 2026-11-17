@@ -30,9 +30,11 @@
     "googleplay:com.app.protector.locker.pro|active",
     "googleplay:com.snagbricks|active",
     "googleplay:com.smartgames.word.puzzle.block.crush|active",
-    "googleplay:app.tools.soundmeter.decibel.noisedetector.pro|active"
+    "googleplay:app.tools.soundmeter.decibel.noisedetector.pro|active",
+    "googleplay:com.devvisiongames.dglandlight.survival|active",
+    "googleplay:com.amoledwatchfaces.materialyou|active"
   ],
-  "posts": 31,
+  "posts": 33,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -219,7 +221,19 @@
       "title": "Medidor de sonido y decibelios",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-17T02:01:15.382Z",
+      "title": "Dead God Land - Light Survival",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-17T02:01:17.405Z",
+      "title": "Material You Watch Face",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-17T01:01:06.735Z"
+  "lastRun": "2026-11-17T02:01:18.905Z"
 }

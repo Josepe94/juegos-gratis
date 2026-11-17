@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T02:01:18.905Z",
+  "updated": "2026-11-17T03:01:22.960Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -309,52 +309,6 @@
       "verified": true
     },
     {
-      "id": "googleplay:com.livezen.BurningSky.vip",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Burning Sky VIP",
-      "description": "¡Domina los combates aéreos con los mejores cazas! Un shooter 3D estilo arcade.",
-      "developer": "SHMUP Games",
-      "url": "https://play.google.com/store/apps/details?id=com.livezen.BurningSky.vip",
-      "image": "https://play-lh.googleusercontent.com/Atj-pZ2tuJ_dpg3XG48wDL15EjsJmBGU-NxpRjSRnROrgsVU8_Ja7tWFvFAK68ZzlqFD4c7uRPxFwKmb28OdTg",
-      "originalPrice": 1.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.6,
-      "ratingCount": 1097,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.smartgames.word.puzzle.block.crush",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Words Search - Word Puzzles",
-      "description": "Disfruta de más de 2000 niveles únicos, ¡No se requiere conexión a Internet!",
-      "developer": "A.V.A - Smart Games",
-      "url": "https://play.google.com/store/apps/details?id=com.smartgames.word.puzzle.block.crush",
-      "image": "https://play-lh.googleusercontent.com/jeUIvpfeP1cDC4f8hs6UnunUNirPyLwTWlobPdtZZacmzT-Qn3zzviMmzTy0UqtkgOj5dCp2LQzazVVwd1mpRvk",
-      "originalPrice": 2.69,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.1,
-      "ratingCount": 590,
-      "verified": true
-    },
-    {
       "id": "googleplay:com.swiperylab.speedupvideo",
       "source": "googleplay",
       "store": "Google Play",
@@ -398,6 +352,29 @@
       ],
       "rating": 4.9,
       "ratingCount": 350,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.panotogomo.iconpack.net.white",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Circle Net White - Icon Pack",
+      "description": "Circle Net White es un paquete de iconos / cambiador de iconos para Nova, Evie y más.",
+      "developer": "GomoTheGom",
+      "url": "https://play.google.com/store/apps/details?id=com.panotogomo.iconpack.net.white",
+      "image": "https://play-lh.googleusercontent.com/XLOlhGBcJlbDhXbZESaLd5BMKU0BQSPGPSWtVsHvRUoTCa6aLB41MdKcTAWoY8xJ3bvzDy998M6ZiGsUCqRyfg",
+      "originalPrice": 1.49,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 248,
       "verified": true
     }
   ]

@@ -32,9 +32,10 @@
     "googleplay:com.smartgames.word.puzzle.block.crush|active",
     "googleplay:app.tools.soundmeter.decibel.noisedetector.pro|active",
     "googleplay:com.devvisiongames.dglandlight.survival|active",
-    "googleplay:com.amoledwatchfaces.materialyou|active"
+    "googleplay:com.amoledwatchfaces.materialyou|active",
+    "googleplay:com.panotogomo.iconpack.net.white|active"
   ],
-  "posts": 33,
+  "posts": 34,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -233,7 +234,13 @@
       "title": "Material You Watch Face",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-17T03:01:21.459Z",
+      "title": "Circle Net White - Icon Pack",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-17T02:01:18.905Z"
+  "lastRun": "2026-11-17T03:01:22.960Z"
 }

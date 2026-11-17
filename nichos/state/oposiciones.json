@@ -16,9 +16,12 @@
   "borm:https://www.borm.es/services/anuncio/846369/pdf",
   "borm:https://www.borm.es/services/anuncio/846370/pdf",
   "borm:https://www.borm.es/services/anuncio/846372/pdf",
-  "borm:https://www.borm.es/services/anuncio/846373/pdf"
+  "borm:https://www.borm.es/services/anuncio/846373/pdf",
+  "boe:BOE-A-2026-24024",
+  "boe:BOE-A-2026-24025",
+  "boe:BOE-A-2026-24072"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-17T06:01:04.019Z"
+ "lastRun": "2026-11-17T07:01:07.730Z"
 }

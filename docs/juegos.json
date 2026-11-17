@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T05:01:23.878Z",
+  "updated": "2026-11-17T06:01:19.649Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -306,6 +306,29 @@
       ],
       "rating": 4.4,
       "ratingCount": 2214,
+      "verified": true
+    },
+    {
+      "id": "googleplay:bubble.level.ruler.pro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Nivel de burbuja PRO",
+      "description": "Nivel de burbuja simple y preciso para probar el nivel o la plomada",
+      "developer": "1 Bit",
+      "url": "https://play.google.com/store/apps/details?id=bubble.level.ruler.pro",
+      "image": "https://play-lh.googleusercontent.com/cklDakVnX-eQY0xYQIJ1yLnrAo6_wTKZLmdfGFXsHVeUdHjeHrx2TWa6Xw---GcHfIo3YCsb0TEKYObAiCp2sg",
+      "originalPrice": 2.79,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.5,
+      "ratingCount": 1481,
       "verified": true
     },
     {

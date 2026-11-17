@@ -33,9 +33,10 @@
     "googleplay:app.tools.soundmeter.decibel.noisedetector.pro|active",
     "googleplay:com.devvisiongames.dglandlight.survival|active",
     "googleplay:com.amoledwatchfaces.materialyou|active",
-    "googleplay:com.panotogomo.iconpack.net.white|active"
+    "googleplay:com.panotogomo.iconpack.net.white|active",
+    "googleplay:bubble.level.ruler.pro|active"
   ],
-  "posts": 34,
+  "posts": 35,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -240,7 +241,13 @@
       "title": "Circle Net White - Icon Pack",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-17T06:01:18.148Z",
+      "title": "Nivel de burbuja PRO",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-17T05:01:23.878Z"
+  "lastRun": "2026-11-17T06:01:19.649Z"
 }

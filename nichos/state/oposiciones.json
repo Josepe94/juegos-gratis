@@ -6,9 +6,19 @@
   "borm:https://www.borm.es/services/anuncio/846320/pdf",
   "borm:https://www.borm.es/services/anuncio/846334/pdf",
   "boe:BOE-A-2026-23921",
-  "boe:BOE-A-2026-23922"
+  "boe:BOE-A-2026-23922",
+  "borm:https://www.borm.es/services/anuncio/846350/pdf",
+  "borm:https://www.borm.es/services/anuncio/846351/pdf",
+  "borm:https://www.borm.es/services/anuncio/846352/pdf",
+  "borm:https://www.borm.es/services/anuncio/846355/pdf",
+  "borm:https://www.borm.es/services/anuncio/846356/pdf",
+  "borm:https://www.borm.es/services/anuncio/846357/pdf",
+  "borm:https://www.borm.es/services/anuncio/846369/pdf",
+  "borm:https://www.borm.es/services/anuncio/846370/pdf",
+  "borm:https://www.borm.es/services/anuncio/846372/pdf",
+  "borm:https://www.borm.es/services/anuncio/846373/pdf"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-16T23:01:20.283Z"
+ "lastRun": "2026-11-17T00:01:16.585Z"
 }

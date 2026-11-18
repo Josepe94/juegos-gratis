@@ -34,9 +34,10 @@
     "googleplay:com.devvisiongames.dglandlight.survival|active",
     "googleplay:com.amoledwatchfaces.materialyou|active",
     "googleplay:com.panotogomo.iconpack.net.white|active",
-    "googleplay:bubble.level.ruler.pro|active"
+    "googleplay:bubble.level.ruler.pro|active",
+    "googleplay:speaker.cleaner.remove.water.eject.fix.sound|active"
   ],
-  "posts": 35,
+  "posts": 36,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -247,7 +248,13 @@
       "title": "Nivel de burbuja PRO",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-18T05:01:33.540Z",
+      "title": "Clear Wave - Water Eject Pro",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-18T04:12:41.180Z"
+  "lastRun": "2026-11-18T05:01:35.042Z"
 }

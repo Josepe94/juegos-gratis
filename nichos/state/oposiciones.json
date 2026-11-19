@@ -34,9 +34,11 @@
   "borm:https://www.borm.es/services/anuncio/846403/pdf",
   "borm:https://www.borm.es/services/anuncio/846406/pdf",
   "borm:https://www.borm.es/services/anuncio/846407/pdf",
-  "borm:https://www.borm.es/services/anuncio/846423/pdf"
+  "borm:https://www.borm.es/services/anuncio/846423/pdf",
+  "boe:BOE-A-2026-24217",
+  "boe:BOE-A-2026-24218"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-19T06:00:59.247Z"
+ "lastRun": "2026-11-19T07:01:07.786Z"
 }

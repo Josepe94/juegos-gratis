@@ -28,9 +28,15 @@
   "borm:https://www.borm.es/services/anuncio/846398/pdf",
   "borm:https://www.borm.es/services/anuncio/846399/pdf",
   "boe:BOE-A-2026-24137",
-  "boe:BOE-A-2026-24163"
+  "boe:BOE-A-2026-24163",
+  "borm:https://www.borm.es/services/anuncio/846401/pdf",
+  "borm:https://www.borm.es/services/anuncio/846402/pdf",
+  "borm:https://www.borm.es/services/anuncio/846403/pdf",
+  "borm:https://www.borm.es/services/anuncio/846406/pdf",
+  "borm:https://www.borm.es/services/anuncio/846407/pdf",
+  "borm:https://www.borm.es/services/anuncio/846423/pdf"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-18T23:01:03.675Z"
+ "lastRun": "2026-11-19T00:01:11.879Z"
 }

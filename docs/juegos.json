@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:01:07.008Z",
+  "updated": "2026-11-19T00:01:16.894Z",
   "items": [
     {
       "id": "epic:02d659f31e1c43a78c43fd9fd9edc089:9975548b6d404a94b8a9bdb34cad49e9",
@@ -240,29 +240,6 @@
       ]
     },
     {
-      "id": "googleplay:app.tools.soundmeter.decibel.noisedetector.pro",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Medidor de sonido y decibelios",
-      "description": "Mida el ruido ambiental con un medidor de sonido y conozca el valor de decibeles",
-      "developer": "Tools Dev",
-      "url": "https://play.google.com/store/apps/details?id=app.tools.soundmeter.decibel.noisedetector.pro",
-      "image": "https://play-lh.googleusercontent.com/iTo6AAhrvKRQEbB8lR7XKBafKeT1RpUCg1pBT-s45s-FLx1hDcPKIjGUA8ec44BgRkjQXrOVKR_3yCA8KoN2WA",
-      "originalPrice": 3.29,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.7,
-      "ratingCount": 4406,
-      "verified": true
-    },
-    {
       "id": "googleplay:com.devvisiongames.dglandlight.survival",
       "source": "googleplay",
       "store": "Google Play",
@@ -282,7 +259,7 @@
         "Android"
       ],
       "rating": 4.4,
-      "ratingCount": 2228,
+      "ratingCount": 2230,
       "verified": true
     },
     {

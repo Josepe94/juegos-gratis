@@ -36,9 +36,11 @@
     "googleplay:com.panotogomo.iconpack.net.white|active",
     "googleplay:bubble.level.ruler.pro|active",
     "googleplay:speaker.cleaner.remove.water.eject.fix.sound|active",
-    "googleplay:com.zitga.ninja.stickman.legends.shadow.wars|active"
+    "googleplay:com.zitga.ninja.stickman.legends.shadow.wars|active",
+    "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c|active",
+    "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875|upcoming"
   ],
-  "posts": 37,
+  "posts": 39,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -261,7 +263,19 @@
       "title": "Stickman Legends: Superhéroe",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-19T16:01:14.597Z",
+      "title": "Mark of the Deep",
+      "store": "Epic Games Store",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-19T16:01:16.276Z",
+      "title": "Bread and Fred",
+      "store": "Epic Games Store",
+      "status": "upcoming"
     }
   ],
-  "lastRun": "2026-11-19T15:01:11.234Z"
+  "lastRun": "2026-11-19T16:01:17.777Z"
 }

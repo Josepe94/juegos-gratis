@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T23:01:03.609Z",
+  "updated": "2026-11-20T00:01:11.920Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -259,7 +259,7 @@
         "Android"
       ],
       "rating": 4.1,
-      "ratingCount": 272066,
+      "ratingCount": 272064,
       "verified": true
     },
     {
@@ -286,29 +286,6 @@
       "verified": true
     },
     {
-      "id": "googleplay:bubble.level.ruler.pro",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Nivel de burbuja PRO",
-      "description": "Nivel de burbuja simple y preciso para probar el nivel o la plomada",
-      "developer": "1 Bit",
-      "url": "https://play.google.com/store/apps/details?id=bubble.level.ruler.pro",
-      "image": "https://play-lh.googleusercontent.com/cklDakVnX-eQY0xYQIJ1yLnrAo6_wTKZLmdfGFXsHVeUdHjeHrx2TWa6Xw---GcHfIo3YCsb0TEKYObAiCp2sg",
-      "originalPrice": 2.79,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.5,
-      "ratingCount": 1487,
-      "verified": true
-    },
-    {
       "id": "googleplay:speaker.cleaner.remove.water.eject.fix.sound",
       "source": "googleplay",
       "store": "Google Play",
@@ -328,7 +305,7 @@
         "Android"
       ],
       "rating": 4.5,
-      "ratingCount": 1456,
+      "ratingCount": 1457,
       "verified": true
     },
     {
@@ -351,7 +328,7 @@
         "Android"
       ],
       "rating": 4.9,
-      "ratingCount": 352,
+      "ratingCount": 353,
       "verified": true
     },
     {

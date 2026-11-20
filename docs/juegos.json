@@ -1,6 +1,29 @@
 {
-  "updated": "2026-11-20T21:01:10.272Z",
+  "updated": "2026-11-20T22:01:17.703Z",
   "items": [
+    {
+      "id": "gamerpower:3830",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Free itch.io Games Bundle",
+      "description": "Claim this bundle (worth $384) and download 116 games for free on itch.io! No strings attached!",
+      "url": "https://itch.io/b/3955/itching-for-games-3",
+      "image": "https://www.gamerpower.com/offers/1b/6ae264e50edb5.jpg",
+      "originalPrice": 384,
+      "currency": "USD",
+      "worthText": "$384.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-10-28T17:11:01.000Z",
+      "endDate": "2026-11-22T23:59:00.000Z",
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/free-itch-io-games-bundle",
+      "verified": true
+    },
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
       "source": "epic",
@@ -84,6 +107,28 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/last-room-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:3328",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "Best Plumber",
+      "description": "Ever dreamed of being a plumber? Probably not... but now’s your chance! Grab Best Plumber for free on IndieGala and step into the boots of a young plumber!",
+      "url": "https://freebies.indiegala.com/best-plumber",
+      "image": "https://www.gamerpower.com/offers/1b/68f40b259de93.jpg",
+      "originalPrice": 29.99,
+      "currency": "USD",
+      "worthText": "$29.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-09-25T13:41:01.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/best-plumber-pc-giveaway",
       "verified": true
     },
     {
@@ -193,29 +238,6 @@
       "platforms": [
         "PC"
       ]
-    },
-    {
-      "id": "googleplay:net.defensezone3.ultra",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Defense Zone 3 Ultra HD",
-      "description": "Continuación del juego de acción y estrategia: nuevas armas, paisajes, opciones.",
-      "developer": "HC GLOBAL DISTRIBUTION LIMITED",
-      "url": "https://play.google.com/store/apps/details?id=net.defensezone3.ultra",
-      "image": "https://play-lh.googleusercontent.com/m3RXDzcGX6lZNc8pBWOGRjXCfgA7IbH8TYskXmGmLBNT_Ok27_d7kFUanM5ExdWwDXUz_fItJ0yXCexXn9eL6NE",
-      "originalPrice": 2.69,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.7,
-      "ratingCount": 38180,
-      "verified": true
     },
     {
       "id": "googleplay:com.infinity.traffix",

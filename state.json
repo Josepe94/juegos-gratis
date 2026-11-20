@@ -40,9 +40,10 @@
     "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c|active",
     "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875|upcoming",
     "googleplay:net.defensezone3.ultra|active",
-    "googleplay:com.infinity.traffix|active"
+    "googleplay:com.infinity.traffix|active",
+    "googleplay:com.pgstudio.bowmasters.rpg.shooting.monster|active"
   ],
-  "posts": 41,
+  "posts": 42,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -289,7 +290,13 @@
       "title": "Traffix: Simulador de Tráfico",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-20T04:01:10.367Z",
+      "title": "Asesino de Monstruos Pro",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-20T03:04:36.157Z"
+  "lastRun": "2026-11-20T04:01:11.868Z"
 }

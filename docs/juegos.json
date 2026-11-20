@@ -1,6 +1,29 @@
 {
-  "updated": "2026-11-20T03:04:36.157Z",
+  "updated": "2026-11-20T04:01:11.868Z",
   "items": [
+    {
+      "id": "gamerpower:3830",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Free itch.io Games Bundle",
+      "description": "Claim this bundle (worth $384) and download 116 games for free on itch.io! No strings attached!",
+      "url": "https://itch.io/b/3955/itching-for-games-3",
+      "image": "https://www.gamerpower.com/offers/1b/6ae264e50edb5.jpg",
+      "originalPrice": 384,
+      "currency": "USD",
+      "worthText": "$384.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-10-28T17:11:01.000Z",
+      "endDate": "2026-11-22T23:59:00.000Z",
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/free-itch-io-games-bundle",
+      "verified": true
+    },
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
       "source": "epic",
@@ -236,7 +259,7 @@
         "Android"
       ],
       "rating": 4.1,
-      "ratingCount": 272089,
+      "ratingCount": 272106,
       "verified": true
     },
     {
@@ -286,26 +309,26 @@
       "verified": true
     },
     {
-      "id": "googleplay:speaker.cleaner.remove.water.eject.fix.sound",
+      "id": "googleplay:com.pgstudio.bowmasters.rpg.shooting.monster",
       "source": "googleplay",
       "store": "Google Play",
-      "title": "Clear Wave - Water Eject Pro",
-      "description": "Remove water and dust to fix your device with a speaker cleaner, water eject app",
-      "developer": "Appchi",
-      "url": "https://play.google.com/store/apps/details?id=speaker.cleaner.remove.water.eject.fix.sound",
-      "image": "https://play-lh.googleusercontent.com/uBpnikOh2RmBN9_VWA70HqofOqdGB8eWJdF21pT5XvlTGtj9zmdFPutJfzc12Q9Ryb-Z3sJnPO-JrTSl5KksZ7g",
-      "originalPrice": 2.29,
+      "title": "Asesino de Monstruos Pro",
+      "description": "Se un heroe y lucha contra el mal! Usa armas y magia! Mejor horror aventura!",
+      "developer": "Gem Jam",
+      "url": "https://play.google.com/store/apps/details?id=com.pgstudio.bowmasters.rpg.shooting.monster",
+      "image": "https://play-lh.googleusercontent.com/SbnodkAlmvrw6UBqAoSVF49N3H5EF58OgcG6LtWgH5Z5JcgDQmZ7zYv1xUyRbR6TdW0oeuJMil9feR7HSlJbYVs",
+      "originalPrice": 1.19,
       "currency": "EUR",
       "worthText": null,
-      "type": "app",
+      "type": "mobilegame",
       "status": "active",
       "startDate": null,
       "endDate": null,
       "platforms": [
         "Android"
       ],
-      "rating": 4.5,
-      "ratingCount": 1457,
+      "rating": 4.1,
+      "ratingCount": 13923,
       "verified": true
     }
   ]

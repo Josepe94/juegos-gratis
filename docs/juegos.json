@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T14:01:10.414Z",
+  "updated": "2026-11-20T15:01:26.002Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -66,28 +66,6 @@
       "verified": true
     },
     {
-      "id": "gamerpower:3340",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "ANCIENT EVIL",
-      "description": "Download ANCIENT EVIL for free via IndieGala! Ancient Evil is a 2d tactical RPG with puzzle elements. Don´t miss it!",
-      "url": "https://freebies.indiegala.com/ancient-evil",
-      "image": "https://www.gamerpower.com/offers/1b/69024dade7c16.jpg",
-      "originalPrice": 4.99,
-      "currency": "USD",
-      "worthText": "$4.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-10-26T11:04:23.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/ancient-evil-pc-giveaway",
-      "verified": true
-    },
-    {
       "id": "gamerpower:3331",
       "source": "gamerpower",
       "store": "IndieGala",
@@ -107,28 +85,6 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/last-room-pc-giveaway",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3328",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "Best Plumber",
-      "description": "Ever dreamed of being a plumber? Probably not... but now’s your chance! Grab Best Plumber for free on IndieGala and step into the boots of a young plumber!",
-      "url": "https://freebies.indiegala.com/best-plumber",
-      "image": "https://www.gamerpower.com/offers/1b/68f40b259de93.jpg",
-      "originalPrice": 29.99,
-      "currency": "USD",
-      "worthText": "$29.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-09-25T13:41:01.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/best-plumber-pc-giveaway",
       "verified": true
     },
     {
@@ -259,7 +215,7 @@
         "Android"
       ],
       "rating": 4.7,
-      "ratingCount": 38180,
+      "ratingCount": 38179,
       "verified": true
     },
     {
@@ -282,7 +238,7 @@
         "Android"
       ],
       "rating": 4.7,
-      "ratingCount": 20414,
+      "ratingCount": 20415,
       "verified": true
     },
     {

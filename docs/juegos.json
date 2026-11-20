@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T01:01:04.753Z",
+  "updated": "2026-11-20T02:01:11.333Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -236,7 +236,7 @@
         "Android"
       ],
       "rating": 4.1,
-      "ratingCount": 272069,
+      "ratingCount": 272074,
       "verified": true
     },
     {
@@ -263,6 +263,29 @@
       "verified": true
     },
     {
+      "id": "googleplay:com.infinity.traffix",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Traffix: Simulador de Tráfico",
+      "description": "Controla el tráfico. Decide cuándo pueden pasar los autos y evita choques",
+      "developer": "Infinity Games, Lda",
+      "url": "https://play.google.com/store/apps/details?id=com.infinity.traffix",
+      "image": "https://play-lh.googleusercontent.com/PxXPq831lEfp6YjEgnaa8J7PJsly7tMg0i2Jawf7Mdho8q5810caHNy7l0KxYVMeHO-9dX5tvcVMXwVSgDrpqmA",
+      "originalPrice": 2.39,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.7,
+      "ratingCount": 20413,
+      "verified": true
+    },
+    {
       "id": "googleplay:speaker.cleaner.remove.water.eject.fix.sound",
       "source": "googleplay",
       "store": "Google Play",
@@ -283,52 +306,6 @@
       ],
       "rating": 4.5,
       "ratingCount": 1457,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.amoledwatchfaces.materialyou",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Material You Watch Face",
-      "description": "Creado para Wear OS. Material Tu diseñas. Amigable con la batería. Personalizable.",
-      "developer": "amoledwatchfaces™",
-      "url": "https://play.google.com/store/apps/details?id=com.amoledwatchfaces.materialyou",
-      "image": "https://play-lh.googleusercontent.com/MmZw3WBbdb9sugIrpG4iC5c_WoiUCSxvkx9mO49O15Qto--ewpVIIVC_2f2hb7PR6Ml9qFL2iuoJVFNRPNrk",
-      "originalPrice": 0.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.9,
-      "ratingCount": 353,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.panotogomo.iconpack.net.white",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Circle Net White - Icon Pack",
-      "description": "Circle Net White es un paquete de iconos / cambiador de iconos para Nova, Evie y más.",
-      "developer": "GomoTheGom",
-      "url": "https://play.google.com/store/apps/details?id=com.panotogomo.iconpack.net.white",
-      "image": "https://play-lh.googleusercontent.com/XLOlhGBcJlbDhXbZESaLd5BMKU0BQSPGPSWtVsHvRUoTCa6aLB41MdKcTAWoY8xJ3bvzDy998M6ZiGsUCqRyfg",
-      "originalPrice": 1.49,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.4,
-      "ratingCount": 248,
       "verified": true
     }
   ]

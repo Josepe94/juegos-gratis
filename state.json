@@ -38,9 +38,10 @@
     "googleplay:speaker.cleaner.remove.water.eject.fix.sound|active",
     "googleplay:com.zitga.ninja.stickman.legends.shadow.wars|active",
     "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c|active",
-    "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875|upcoming"
+    "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875|upcoming",
+    "googleplay:net.defensezone3.ultra|active"
   ],
-  "posts": 39,
+  "posts": 40,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -275,7 +276,13 @@
       "title": "Bread and Fred",
       "store": "Epic Games Store",
       "status": "upcoming"
+    },
+    {
+      "at": "2026-11-20T01:01:03.252Z",
+      "title": "Defense Zone 3 Ultra HD",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-20T00:01:11.920Z"
+  "lastRun": "2026-11-20T01:01:04.753Z"
 }

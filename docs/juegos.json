@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T00:01:11.920Z",
+  "updated": "2026-11-20T01:01:04.753Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -198,29 +198,6 @@
       "verified": true
     },
     {
-      "id": "gamerpower:2204",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Dual Chroma: Academy Carols",
-      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
-      "url": "https://galengames.itch.io/academy-carols",
-      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
-      "originalPrice": 2,
-      "currency": "USD",
-      "worthText": "$2.00",
-      "type": "game",
-      "status": "active",
-      "startDate": "2023-01-17T20:26:51.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "Itch.io",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
-      "verified": true
-    },
-    {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",
       "store": "Epic Games Store",
@@ -259,19 +236,19 @@
         "Android"
       ],
       "rating": 4.1,
-      "ratingCount": 272064,
+      "ratingCount": 272069,
       "verified": true
     },
     {
-      "id": "googleplay:com.devvisiongames.dglandlight.survival",
+      "id": "googleplay:net.defensezone3.ultra",
       "source": "googleplay",
       "store": "Google Play",
-      "title": "Dead God Land - Light Survival",
-      "description": "¡Los objetos comprados no desaparecen! ¡Disfruta de tu supervivencia!",
-      "developer": "DevVision Games",
-      "url": "https://play.google.com/store/apps/details?id=com.devvisiongames.dglandlight.survival",
-      "image": "https://play-lh.googleusercontent.com/4Xp5-BN8_-tioeOuMJrxB7LCg2SxyaILG_1PdPSdVeFZk6L3bBjUzJgYxwShZfzOPiVRQLtMtFcVYEjuN74f3g",
-      "originalPrice": 7.99,
+      "title": "Defense Zone 3 Ultra HD",
+      "description": "Continuación del juego de acción y estrategia: nuevas armas, paisajes, opciones.",
+      "developer": "HC GLOBAL DISTRIBUTION LIMITED",
+      "url": "https://play.google.com/store/apps/details?id=net.defensezone3.ultra",
+      "image": "https://play-lh.googleusercontent.com/m3RXDzcGX6lZNc8pBWOGRjXCfgA7IbH8TYskXmGmLBNT_Ok27_d7kFUanM5ExdWwDXUz_fItJ0yXCexXn9eL6NE",
+      "originalPrice": 2.69,
       "currency": "EUR",
       "worthText": null,
       "type": "mobilegame",
@@ -281,8 +258,8 @@
       "platforms": [
         "Android"
       ],
-      "rating": 4.4,
-      "ratingCount": 2249,
+      "rating": 4.7,
+      "ratingCount": 38180,
       "verified": true
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T14:01:04.919Z",
+  "updated": "2026-11-21T15:01:10.183Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -195,6 +195,29 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:2204",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Dual Chroma: Academy Carols",
+      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
+      "url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "originalPrice": 2,
+      "currency": "USD",
+      "worthText": "$2.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2023-01-17T20:26:51.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
       "verified": true
     },
     {

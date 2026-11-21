@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T05:01:06.628Z",
+  "updated": "2026-11-21T06:01:10.126Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -282,7 +282,7 @@
         "Android"
       ],
       "rating": 4.1,
-      "ratingCount": 12763,
+      "ratingCount": 12764,
       "verified": true
     },
     {
@@ -306,6 +306,29 @@
       ],
       "rating": 4.4,
       "ratingCount": 7495,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.tapuniverse.businesscardmaker",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Business Card Maker: Logo Card",
+      "description": "Aplicación para crear tarjetas de visita, crear tarjetas de presentación qr y personalizar tarjetas de presentación",
+      "developer": "TAPUNIVERSE",
+      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.businesscardmaker",
+      "image": "https://play-lh.googleusercontent.com/PBWgd3gjzRJ4tj2zqw2J9HwowY1q9Vam3J6jhexyYnVeL9O17O33WUTEkNI0BHTY7MJoiNaKx6j2LTsaUiv7mQM",
+      "originalPrice": 5.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 1714,
       "verified": true
     },
     {

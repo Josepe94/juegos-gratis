@@ -44,9 +44,10 @@
     "googleplay:com.pgstudio.bowmasters.rpg.shooting.monster|active",
     "googleplay:com.panotogomo.dockcircle|active",
     "googleplay:com.pixelstar.PixelFBladeVIP|active",
-    "googleplay:com.cscmobi.cooking.love|active"
+    "googleplay:com.cscmobi.cooking.love|active",
+    "googleplay:com.tapuniverse.businesscardmaker|active"
   ],
-  "posts": 45,
+  "posts": 46,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -317,7 +318,13 @@
       "title": "Cooking Kawaii: cocina",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-21T06:01:08.626Z",
+      "title": "Business Card Maker: Logo Card",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-21T05:01:06.628Z"
+  "lastRun": "2026-11-21T06:01:10.126Z"
 }

@@ -40,9 +40,16 @@
   "borm:https://www.borm.es/services/anuncio/846430/pdf",
   "boe:BOE-A-2026-24331",
   "boe:BOE-A-2026-24335",
-  "boe:BOE-A-2026-24355"
+  "boe:BOE-A-2026-24355",
+  "borm:https://www.borm.es/services/anuncio/846440/pdf",
+  "borm:https://www.borm.es/services/anuncio/846441/pdf",
+  "borm:https://www.borm.es/services/anuncio/846445/pdf",
+  "borm:https://www.borm.es/services/anuncio/846450/pdf",
+  "borm:https://www.borm.es/services/anuncio/846454/pdf",
+  "borm:https://www.borm.es/services/anuncio/846455/pdf",
+  "borm:https://www.borm.es/services/anuncio/846460/pdf"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-20T23:01:02.791Z"
+ "lastRun": "2026-11-21T00:01:10.764Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T01:27:04.991Z",
+  "updated": "2026-11-21T02:01:04.973Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -240,29 +240,6 @@
       ]
     },
     {
-      "id": "googleplay:com.infinity.traffix",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Traffix: Simulador de Tráfico",
-      "description": "Controla el tráfico. Decide cuándo pueden pasar los autos y evita choques",
-      "developer": "Infinity Games, Lda",
-      "url": "https://play.google.com/store/apps/details?id=com.infinity.traffix",
-      "image": "https://play-lh.googleusercontent.com/PxXPq831lEfp6YjEgnaa8J7PJsly7tMg0i2Jawf7Mdho8q5810caHNy7l0KxYVMeHO-9dX5tvcVMXwVSgDrpqmA",
-      "originalPrice": 2.39,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.7,
-      "ratingCount": 20419,
-      "verified": true
-    },
-    {
       "id": "googleplay:com.pgstudio.bowmasters.rpg.shooting.monster",
       "source": "googleplay",
       "store": "Google Play",
@@ -283,6 +260,52 @@
       ],
       "rating": 4.1,
       "ratingCount": 13924,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.pixelstar.PixelFBladeVIP",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Pixel Blade M VIP",
+      "description": "Juego de rol de acción. ¡Reúne armas y conquista mazmorras!",
+      "developer": "pixelstar",
+      "url": "https://play.google.com/store/apps/details?id=com.pixelstar.PixelFBladeVIP",
+      "image": "https://play-lh.googleusercontent.com/SvusWGW7NkUwClPVU2xBzpm7QVyxBTnyltZ7aPVBCh389VplJvBozQ_XImJZNXnb6-5dEp784zOOvAgH3KiUmA",
+      "originalPrice": 1.79,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.1,
+      "ratingCount": 12763,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.cscmobi.cooking.love",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Cooking Kawaii: cocina",
+      "description": "Cocina y sirve comida increíble en todo el mundo.",
+      "developer": "CSCMobi Studios",
+      "url": "https://play.google.com/store/apps/details?id=com.cscmobi.cooking.love",
+      "image": "https://play-lh.googleusercontent.com/jZ8SWFUCGcOXGeS9N5qwinMXiYdzRYM6MjsfZueTM2txu1sIeOwYvaHy9gHxLTtHYXpZdYxi7QNk1sVI83mG",
+      "originalPrice": 1.09,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 7495,
       "verified": true
     },
     {

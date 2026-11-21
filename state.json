@@ -42,9 +42,11 @@
     "googleplay:net.defensezone3.ultra|active",
     "googleplay:com.infinity.traffix|active",
     "googleplay:com.pgstudio.bowmasters.rpg.shooting.monster|active",
-    "googleplay:com.panotogomo.dockcircle|active"
+    "googleplay:com.panotogomo.dockcircle|active",
+    "googleplay:com.pixelstar.PixelFBladeVIP|active",
+    "googleplay:com.cscmobi.cooking.love|active"
   ],
-  "posts": 43,
+  "posts": 45,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -303,7 +305,19 @@
       "title": "CircleDock 3D - Icon Pack",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-21T02:01:00.297Z",
+      "title": "Pixel Blade M VIP",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-21T02:01:03.471Z",
+      "title": "Cooking Kawaii: cocina",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-21T01:27:04.991Z"
+  "lastRun": "2026-11-21T02:01:04.973Z"
 }

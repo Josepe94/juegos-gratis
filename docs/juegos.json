@@ -1,29 +1,6 @@
 {
-  "updated": "2026-11-22T03:01:08.137Z",
+  "updated": "2026-11-22T04:00:58.358Z",
   "items": [
-    {
-      "id": "gamerpower:3830",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Free itch.io Games Bundle",
-      "description": "Claim this bundle (worth $384) and download 116 games for free on itch.io! No strings attached!",
-      "url": "https://itch.io/b/3955/itching-for-games-3",
-      "image": "https://www.gamerpower.com/offers/1b/6ae264e50edb5.jpg",
-      "originalPrice": 384,
-      "currency": "USD",
-      "worthText": "$384.00",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-10-28T17:11:01.000Z",
-      "endDate": "2026-11-22T23:59:00.000Z",
-      "platforms": [
-        "PC",
-        "Itch.io",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/free-itch-io-games-bundle",
-      "verified": true
-    },
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
       "source": "epic",

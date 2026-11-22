@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T14:01:18.846Z",
+  "updated": "2026-11-22T15:01:10.102Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -42,6 +42,28 @@
       "platforms": [
         "PC"
       ]
+    },
+    {
+      "id": "gamerpower:3346",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "My Darkest Witch",
+      "description": "Score My Darkest Witch for free on IndieGala! My Darkest Witch is a 2d survival arena game with endless waves of enemies.",
+      "url": "https://freebies.indiegala.com/my-darkest-witch",
+      "image": "https://www.gamerpower.com/offers/1b/69061997da81d.jpg",
+      "originalPrice": 4.99,
+      "currency": "USD",
+      "worthText": "$4.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-10-30T13:33:46.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/my-darkest-witch-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3340",
@@ -260,7 +282,7 @@
         "Android"
       ],
       "rating": 4.4,
-      "ratingCount": 7496,
+      "ratingCount": 7497,
       "verified": true
     },
     {
@@ -306,7 +328,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 1717,
+      "ratingCount": 1718,
       "verified": true
     }
   ]

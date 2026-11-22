@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T02:01:04.482Z",
+  "updated": "2026-11-22T03:01:08.137Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -306,29 +306,6 @@
       ],
       "rating": 4.6,
       "ratingCount": 1712,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.panotogomo.dockcircle",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "CircleDock 3D - Icon Pack",
-      "description": "CircleDock 3D es un paquete de íconos inspirado en Dock con 5000 ++ íconos",
-      "developer": "GomoTheGom",
-      "url": "https://play.google.com/store/apps/details?id=com.panotogomo.dockcircle",
-      "image": "https://play-lh.googleusercontent.com/pTSL2lT3XM83mqPoSpf5mtnFBfBHOjz1iyBdvT9v_PCwkL4kBBWVxzCxbBMUTrxsKFf6RXjMjAvZn963TxByxgQ",
-      "originalPrice": 1.49,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4,
-      "ratingCount": 303,
       "verified": true
     }
   ]

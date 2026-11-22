@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T21:01:46.264Z",
+  "updated": "2026-11-22T21:43:55.848Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -132,6 +132,95 @@
       "verified": true
     },
     {
+      "id": "gamerpower:3322",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "Sausage Hunter",
+      "description": "The hunt for the magic sausage starts now! Download Sausage Hunter for free on IndieGala. Sausage Hunter is a 2D platformer with hand-drawn graphics and intriguing puzzles... plus a kitten and sausages, for some reason.",
+      "url": "https://freebies.indiegala.com/sausage-hunter",
+      "image": "https://www.gamerpower.com/offers/1b/68eadb2d6f0c4.jpg",
+      "originalPrice": 29.99,
+      "currency": "USD",
+      "worthText": "$29.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-09-19T09:15:50.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/sausage-hunter-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:3324",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "Battle Ram",
+      "description": "Become the battle lamb you were born to be! Battle Ram is free this week on IndieGala, download it now! Battle Ram is a 2d action-packed game with lambs and battling robots.",
+      "url": "https://freebies.indiegala.com/battle-ram?tap_s=1069275-d1b8f4",
+      "image": "https://www.gamerpower.com/offers/1b/68efabd65f913.jpg",
+      "originalPrice": 29.99,
+      "currency": "USD",
+      "worthText": "$29.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-09-02T09:51:31.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/battle-ram-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:3316",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "Leaper",
+      "description": "Time to put your reflexes to the test! Download Leaper for free on IndieGala! Leaper is a 2d side-scrolling platformer with colorful pixel graphics and precise jumping mechanics. Check it out!",
+      "url": "https://freebies.indiegala.com/leaper",
+      "image": "https://www.gamerpower.com/offers/1b/68e6513c31514.jpg",
+      "originalPrice": 4.99,
+      "currency": "USD",
+      "worthText": "$4.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-08-26T07:55:48.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:2204",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Dual Chroma: Academy Carols",
+      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
+      "url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "originalPrice": 2,
+      "currency": "USD",
+      "worthText": "$2.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2023-01-17T20:26:51.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
+      "verified": true
+    },
+    {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",
       "store": "Epic Games Store",
@@ -239,7 +328,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 1720,
+      "ratingCount": 1722,
       "verified": true
     }
   ]

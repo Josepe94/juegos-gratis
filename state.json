@@ -45,9 +45,10 @@
     "googleplay:com.panotogomo.dockcircle|active",
     "googleplay:com.pixelstar.PixelFBladeVIP|active",
     "googleplay:com.cscmobi.cooking.love|active",
-    "googleplay:com.tapuniverse.businesscardmaker|active"
+    "googleplay:com.tapuniverse.businesscardmaker|active",
+    "googleplay:com.catlab.cookglobalvip|active"
   ],
-  "posts": 46,
+  "posts": 47,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -324,7 +325,13 @@
       "title": "Business Card Maker: Logo Card",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-22T02:01:02.982Z",
+      "title": "Cooking Quest: Las aventuras d",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-22T01:01:01.992Z"
+  "lastRun": "2026-11-22T02:01:04.482Z"
 }

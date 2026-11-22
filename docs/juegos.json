@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T01:01:01.992Z",
+  "updated": "2026-11-22T02:01:04.482Z",
   "items": [
     {
       "id": "gamerpower:3830",
@@ -217,29 +217,6 @@
       ]
     },
     {
-      "id": "googleplay:com.pgstudio.bowmasters.rpg.shooting.monster",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Asesino de Monstruos Pro",
-      "description": "Se un heroe y lucha contra el mal! Usa armas y magia! Mejor horror aventura!",
-      "developer": "Gem Jam",
-      "url": "https://play.google.com/store/apps/details?id=com.pgstudio.bowmasters.rpg.shooting.monster",
-      "image": "https://play-lh.googleusercontent.com/SbnodkAlmvrw6UBqAoSVF49N3H5EF58OgcG6LtWgH5Z5JcgDQmZ7zYv1xUyRbR6TdW0oeuJMil9feR7HSlJbYVs",
-      "originalPrice": 1.19,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.1,
-      "ratingCount": 13940,
-      "verified": true
-    },
-    {
       "id": "googleplay:com.pixelstar.PixelFBladeVIP",
       "source": "googleplay",
       "store": "Google Play",
@@ -283,6 +260,29 @@
       ],
       "rating": 4.4,
       "ratingCount": 7495,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.catlab.cookglobalvip",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Cooking Quest: Las aventuras d",
+      "description": "¡Consigue recetas de todo el mundo para aabar teniendo el food truck definitivo!",
+      "developer": "Cat Lab",
+      "url": "https://play.google.com/store/apps/details?id=com.catlab.cookglobalvip",
+      "image": "https://play-lh.googleusercontent.com/Kgzj7iDhuaE9vSK-lkZ7p5v6URmwT12oVAtsSTBkIk-7SWZLz-FrKiFh4zwYb0NhZluGb3OldDtwEDXS2UT8Yg",
+      "originalPrice": 1.09,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.3,
+      "ratingCount": 2716,
       "verified": true
     },
     {

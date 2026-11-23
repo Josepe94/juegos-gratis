@@ -47,9 +47,10 @@
     "googleplay:com.cscmobi.cooking.love|active",
     "googleplay:com.tapuniverse.businesscardmaker|active",
     "googleplay:com.catlab.cookglobalvip|active",
-    "googleplay:com.panotogomo.cuticonh|active"
+    "googleplay:com.panotogomo.cuticonh|active",
+    "googleplay:com.cscmobi.merge.cafe.premium|active"
   ],
-  "posts": 48,
+  "posts": 49,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -338,7 +339,13 @@
       "title": "Hexa Crop - Icon Pack",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-23T09:01:14.513Z",
+      "title": "Merge Cafe Premium -Home Decor",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-23T08:01:07.324Z"
+  "lastRun": "2026-11-23T09:01:16.013Z"
 }

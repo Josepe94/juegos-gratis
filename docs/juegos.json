@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:01:11.458Z",
+  "updated": "2026-11-23T06:01:06.569Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -175,29 +175,6 @@
       "verified": true
     },
     {
-      "id": "gamerpower:2204",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Dual Chroma: Academy Carols",
-      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
-      "url": "https://galengames.itch.io/academy-carols",
-      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
-      "originalPrice": 2,
-      "currency": "USD",
-      "worthText": "$2.00",
-      "type": "game",
-      "status": "active",
-      "startDate": "2023-01-17T20:26:51.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "Itch.io",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
-      "verified": true
-    },
-    {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",
       "store": "Epic Games Store",
@@ -215,29 +192,6 @@
       "platforms": [
         "PC"
       ]
-    },
-    {
-      "id": "googleplay:com.pixelstar.PixelFBladeVIP",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Pixel Blade M VIP",
-      "description": "Juego de rol de acción. ¡Reúne armas y conquista mazmorras!",
-      "developer": "pixelstar",
-      "url": "https://play.google.com/store/apps/details?id=com.pixelstar.PixelFBladeVIP",
-      "image": "https://play-lh.googleusercontent.com/SvusWGW7NkUwClPVU2xBzpm7QVyxBTnyltZ7aPVBCh389VplJvBozQ_XImJZNXnb6-5dEp784zOOvAgH3KiUmA",
-      "originalPrice": 1.79,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.1,
-      "ratingCount": 12771,
-      "verified": true
     },
     {
       "id": "googleplay:com.cscmobi.cooking.love",

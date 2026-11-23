@@ -46,9 +46,10 @@
     "googleplay:com.pixelstar.PixelFBladeVIP|active",
     "googleplay:com.cscmobi.cooking.love|active",
     "googleplay:com.tapuniverse.businesscardmaker|active",
-    "googleplay:com.catlab.cookglobalvip|active"
+    "googleplay:com.catlab.cookglobalvip|active",
+    "googleplay:com.panotogomo.cuticonh|active"
   ],
-  "posts": 47,
+  "posts": 48,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -331,7 +332,13 @@
       "title": "Cooking Quest: Las aventuras d",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-23T02:39:10.589Z",
+      "title": "Hexa Crop - Icon Pack",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-23T02:01:10.305Z"
+  "lastRun": "2026-11-23T02:39:12.089Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T02:01:10.305Z",
+  "updated": "2026-11-23T02:39:12.089Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -306,6 +306,29 @@
       ],
       "rating": 4.6,
       "ratingCount": 1724,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.panotogomo.cuticonh",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Hexa Crop - Icon Pack",
+      "description": "Hexa Crop es un paquete de íconos en forma de Hexa con efecto de corte dentro de cada ícono.",
+      "developer": "GomoTheGom",
+      "url": "https://play.google.com/store/apps/details?id=com.panotogomo.cuticonh",
+      "image": "https://play-lh.googleusercontent.com/2jW8PZphPTNLVHxmmMcQToAuOSfHafMXVHnlVkhLK6LK4PKS73jYg16qc7NT3pgD342GqsZCa7nYzG9UxxTk_w",
+      "originalPrice": 1.49,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 204,
       "verified": true
     }
   ]

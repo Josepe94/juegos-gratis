@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T04:01:05.785Z",
+  "updated": "2026-11-24T05:01:04.321Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -175,6 +175,29 @@
       "verified": true
     },
     {
+      "id": "gamerpower:2204",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Dual Chroma: Academy Carols",
+      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
+      "url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "originalPrice": 2,
+      "currency": "USD",
+      "worthText": "$2.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2023-01-17T20:26:51.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
+      "verified": true
+    },
+    {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",
       "store": "Epic Games Store",
@@ -192,6 +215,29 @@
       "platforms": [
         "PC"
       ]
+    },
+    {
+      "id": "googleplay:alarm.clock.calendar.reminder.pro",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Reminder Pro: Recordatorio",
+      "description": "Versión sin publicidad del recordatorio",
+      "developer": "made easy",
+      "url": "https://play.google.com/store/apps/details?id=alarm.clock.calendar.reminder.pro",
+      "image": "https://play-lh.googleusercontent.com/N4rFvzzN9yjYc9twiG0DnH70h7rKIHkDd7yiHRanXNDRh4p90SLerxzdpPfu5hD1Mczbmx3__3VNSifcyfwu",
+      "originalPrice": 3.79,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.4,
+      "ratingCount": 3337,
+      "verified": true
     },
     {
       "id": "googleplay:com.catlab.cookglobalvip",
@@ -217,15 +263,15 @@
       "verified": true
     },
     {
-      "id": "googleplay:com.tapuniverse.businesscardmaker",
+      "id": "googleplay:com.tapuniverse.imageconverter",
       "source": "googleplay",
       "store": "Google Play",
-      "title": "Business Card Maker: Logo Card",
-      "description": "Aplicación para crear tarjetas de visita, crear tarjetas de presentación qr y personalizar tarjetas de presentación",
+      "title": "Image Converter - HEIC to JPG",
+      "description": "Convierta imágenes a JPG PNG HEIC PDF, admita casi todo tipo de formatos de imágenes",
       "developer": "TAPUNIVERSE",
-      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.businesscardmaker",
-      "image": "https://play-lh.googleusercontent.com/PBWgd3gjzRJ4tj2zqw2J9HwowY1q9Vam3J6jhexyYnVeL9O17O33WUTEkNI0BHTY7MJoiNaKx6j2LTsaUiv7mQM",
-      "originalPrice": 5.99,
+      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.imageconverter",
+      "image": "https://play-lh.googleusercontent.com/KJ1HzpY8pl3BZHZ1HuNv83Wqj446jiqnwJvS9lL6U_HfrONltle3H4jU8YL-yxk4PEO4WIT7UBQ4UwBWYt7A",
+      "originalPrice": 2.19,
       "currency": "EUR",
       "worthText": null,
       "type": "app",
@@ -236,7 +282,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 1733,
+      "ratingCount": 2569,
       "verified": true
     },
     {

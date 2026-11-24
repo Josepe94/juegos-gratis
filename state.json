@@ -48,9 +48,11 @@
     "googleplay:com.tapuniverse.businesscardmaker|active",
     "googleplay:com.catlab.cookglobalvip|active",
     "googleplay:com.panotogomo.cuticonh|active",
-    "googleplay:com.cscmobi.merge.cafe.premium|active"
+    "googleplay:com.cscmobi.merge.cafe.premium|active",
+    "googleplay:alarm.clock.calendar.reminder.pro|active",
+    "googleplay:com.tapuniverse.imageconverter|active"
   ],
-  "posts": 49,
+  "posts": 51,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -345,7 +347,19 @@
       "title": "Merge Cafe Premium -Home Decor",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-24T05:01:00.907Z",
+      "title": "Reminder Pro: Recordatorio",
+      "store": "Google Play",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-24T05:01:02.820Z",
+      "title": "Image Converter - HEIC to JPG",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-24T04:01:05.785Z"
+  "lastRun": "2026-11-24T05:01:04.321Z"
 }

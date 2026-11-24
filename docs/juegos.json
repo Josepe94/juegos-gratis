@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:01:08.256Z",
+  "updated": "2026-11-24T18:01:22.660Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -62,28 +62,6 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/ancient-evil-pc-giveaway",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3331",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "Last Room",
-      "description": "Dive into a world of puzzles today! Download Last Room for free on IndieGala! Last Room is a 3d puzzle game with interactive environments, medieval mysteries and secret levels.",
-      "url": "https://freebies.indiegala.com/last-room",
-      "image": "https://www.gamerpower.com/offers/1b/68f91bd81c328.jpg",
-      "originalPrice": 29.99,
-      "currency": "USD",
-      "worthText": "$29.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-10-19T11:58:10.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/last-room-pc-giveaway",
       "verified": true
     },
     {
@@ -172,6 +150,29 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway",
+      "verified": true
+    },
+    {
+      "id": "gamerpower:2204",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Dual Chroma: Academy Carols",
+      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
+      "url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "originalPrice": 2,
+      "currency": "USD",
+      "worthText": "$2.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2023-01-17T20:26:51.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
       "verified": true
     },
     {

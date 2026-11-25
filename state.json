@@ -50,9 +50,10 @@
     "googleplay:com.panotogomo.cuticonh|active",
     "googleplay:com.cscmobi.merge.cafe.premium|active",
     "googleplay:alarm.clock.calendar.reminder.pro|active",
-    "googleplay:com.tapuniverse.imageconverter|active"
+    "googleplay:com.tapuniverse.imageconverter|active",
+    "googleplay:extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app|active"
   ],
-  "posts": 51,
+  "posts": 52,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -359,7 +360,13 @@
       "title": "Image Converter - HEIC to JPG",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-25T06:01:04.189Z",
+      "title": "APTV: IPTV Smarters Player PRO",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-25T05:01:08.213Z"
+  "lastRun": "2026-11-25T06:01:05.689Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T05:01:08.213Z",
+  "updated": "2026-11-25T06:01:05.689Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -259,7 +259,30 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 2570,
+      "ratingCount": 2572,
+      "verified": true
+    },
+    {
+      "id": "googleplay:extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "APTV: IPTV Smarters Player PRO",
+      "description": "APTV - Reproductor IPTV, Conectar y Transmitir APTV Pro",
+      "developer": "BRILIC MEDIA",
+      "url": "https://play.google.com/store/apps/details?id=extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app",
+      "image": "https://play-lh.googleusercontent.com/bTzFetHwIBPphyp1pJEYVfOjUpMVN1y4NKxfVO9gjgKqOKd7OmqsedUsxwV_798qc2xN2t-TCtnzpZnqehbjxg",
+      "originalPrice": 10.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.3,
+      "ratingCount": 670,
       "verified": true
     },
     {

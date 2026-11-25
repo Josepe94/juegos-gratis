@@ -66,9 +66,12 @@
   "borm:https://www.borm.es/services/anuncio/846516/pdf",
   "borm:https://www.borm.es/services/anuncio/846519/pdf",
   "borm:https://www.borm.es/services/anuncio/846520/pdf",
-  "borm:https://www.borm.es/services/anuncio/846521/pdf"
+  "borm:https://www.borm.es/services/anuncio/846521/pdf",
+  "boe:BOE-A-2026-24731",
+  "boe:BOE-A-2026-24732",
+  "boe:BOE-A-2026-24733"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-25T06:01:00.839Z"
+ "lastRun": "2026-11-25T07:01:06.461Z"
 }

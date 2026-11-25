@@ -51,9 +51,10 @@
     "googleplay:com.cscmobi.merge.cafe.premium|active",
     "googleplay:alarm.clock.calendar.reminder.pro|active",
     "googleplay:com.tapuniverse.imageconverter|active",
-    "googleplay:extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app|active"
+    "googleplay:extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app|active",
+    "googleplay:com.watchfacestudio.awffittwo|active"
   ],
-  "posts": 52,
+  "posts": 53,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -366,7 +367,13 @@
       "title": "APTV: IPTV Smarters Player PRO",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-25T07:01:11.385Z",
+      "title": "Fit TWO Watch Face",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-25T06:01:05.689Z"
+  "lastRun": "2026-11-25T07:01:12.885Z"
 }

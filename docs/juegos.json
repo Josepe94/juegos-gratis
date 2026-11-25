@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T06:01:05.689Z",
+  "updated": "2026-11-25T07:01:12.885Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -259,7 +259,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 2572,
+      "ratingCount": 2573,
       "verified": true
     },
     {
@@ -283,6 +283,29 @@
       ],
       "rating": 4.3,
       "ratingCount": 670,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.watchfacestudio.awffittwo",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Fit TWO Watch Face",
+      "description": "Fondo negro verdadero, píxeles perfectos, esfera de reloj digital fitness para Wear OS.",
+      "developer": "amoledwatchfaces™",
+      "url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.awffittwo",
+      "image": "https://play-lh.googleusercontent.com/r9ACuQZg_pTTp893-j8fxAY9BriVpgRvS9TXkocmwG1S7iMfJLn9jB-ZZGVYbwy-0WxLkZx0OXPZwA6VlrOMFsg",
+      "originalPrice": 1.79,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.2,
+      "ratingCount": 239,
       "verified": true
     },
     {

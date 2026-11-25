@@ -62,9 +62,13 @@
   "borm:https://www.borm.es/services/anuncio/846484/pdf",
   "borm:https://www.borm.es/services/anuncio/846485/pdf",
   "borm:https://www.borm.es/services/anuncio/846487/pdf",
-  "borm:https://www.borm.es/services/anuncio/846488/pdf"
+  "borm:https://www.borm.es/services/anuncio/846488/pdf",
+  "borm:https://www.borm.es/services/anuncio/846516/pdf",
+  "borm:https://www.borm.es/services/anuncio/846519/pdf",
+  "borm:https://www.borm.es/services/anuncio/846520/pdf",
+  "borm:https://www.borm.es/services/anuncio/846521/pdf"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-24T23:01:00.522Z"
+ "lastRun": "2026-11-25T00:01:05.624Z"
 }

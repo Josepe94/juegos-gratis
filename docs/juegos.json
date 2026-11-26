@@ -1,6 +1,25 @@
 {
-  "updated": "2026-11-26T16:01:06.157Z",
+  "updated": "2026-11-26T17:01:09.063Z",
   "items": [
+    {
+      "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
+      "source": "epic",
+      "store": "Epic Games Store",
+      "title": "Bread and Fred",
+      "description": "Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "url": "https://store.epicgames.com/es-ES/p/bread-and-fred-1db362",
+      "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
+      "originalPrice": 13.49,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-11-26T16:00:00.000Z",
+      "endDate": "2026-12-03T16:00:00.000Z",
+      "platforms": [
+        "PC"
+      ]
+    },
     {
       "id": "gamerpower:3346",
       "source": "gamerpower",
@@ -156,29 +175,6 @@
       "verified": true
     },
     {
-      "id": "gamerpower:2204",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Dual Chroma: Academy Carols",
-      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
-      "url": "https://galengames.itch.io/academy-carols",
-      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
-      "originalPrice": 2,
-      "currency": "USD",
-      "worthText": "$2.00",
-      "type": "game",
-      "status": "active",
-      "startDate": "2023-01-17T20:26:51.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "Itch.io",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
-      "verified": true
-    },
-    {
       "id": "epic:ca2e8ee2cacc4b69abd275a50422b010:72bd05148adb4e2cacb8b2efaa4c0297",
       "source": "epic",
       "store": "Epic Games Store",
@@ -217,7 +213,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 85469,
+      "ratingCount": 85471,
       "verified": true
     },
     {

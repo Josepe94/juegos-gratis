@@ -55,9 +55,10 @@
     "googleplay:com.watchfacestudio.awffittwo|active",
     "googleplay:com.redantz.game.za3p|active",
     "googleplay:com.zitga.guardian.war.premium.action.rpg.adventure.games|active",
-    "googleplay:com.tapuniverse.passportphoto|active"
+    "googleplay:com.tapuniverse.passportphoto|active",
+    "epic:ca2e8ee2cacc4b69abd275a50422b010:72bd05148adb4e2cacb8b2efaa4c0297|upcoming"
   ],
-  "posts": 56,
+  "posts": 57,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -394,7 +395,13 @@
       "title": "Passport Photo: ID Photo Print",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-26T12:01:06.856Z",
+      "title": "Strange Antiquities",
+      "store": "Epic Games Store",
+      "status": "upcoming"
     }
   ],
-  "lastRun": "2026-11-26T11:01:06.998Z"
+  "lastRun": "2026-11-26T12:01:08.356Z"
 }

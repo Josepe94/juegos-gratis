@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T04:01:04.343Z",
+  "updated": "2026-11-26T05:01:06.107Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -175,29 +175,6 @@
       "verified": true
     },
     {
-      "id": "gamerpower:2204",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Dual Chroma: Academy Carols",
-      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
-      "url": "https://galengames.itch.io/academy-carols",
-      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
-      "originalPrice": 2,
-      "currency": "USD",
-      "worthText": "$2.00",
-      "type": "game",
-      "status": "active",
-      "startDate": "2023-01-17T20:26:51.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "Itch.io",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
-      "verified": true
-    },
-    {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",
       "store": "Epic Games Store",
@@ -240,6 +217,29 @@
       "verified": true
     },
     {
+      "id": "googleplay:com.tapuniverse.passportphoto",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Passport Photo: ID Photo Print",
+      "description": "Creador de fotografías tamaño pasaporte, cree una fotografía de identificación y una fotografía para visa en segundos",
+      "developer": "TAPUNIVERSE",
+      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.passportphoto",
+      "image": "https://play-lh.googleusercontent.com/JkJweG6pBX6qJs_0--04ZZKK2tsoO-rdopaUOsyTE4M7EguWOxtV1f8_OnON6gxFeC0otbuq9tS6itoerwO49w",
+      "originalPrice": 5.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "app",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.7,
+      "ratingCount": 6441,
+      "verified": true
+    },
+    {
       "id": "googleplay:com.zitga.guardian.war.premium.action.rpg.adventure.games",
       "source": "googleplay",
       "store": "Google Play",
@@ -259,7 +259,7 @@
         "Android"
       ],
       "rating": 4.2,
-      "ratingCount": 6340,
+      "ratingCount": 6339,
       "verified": true
     },
     {
@@ -286,29 +286,6 @@
       "verified": true
     },
     {
-      "id": "googleplay:com.tapuniverse.imageconverter",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Image Converter - HEIC to JPG",
-      "description": "Convierta imágenes a JPG PNG HEIC PDF, admita casi todo tipo de formatos de imágenes",
-      "developer": "TAPUNIVERSE",
-      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.imageconverter",
-      "image": "https://play-lh.googleusercontent.com/KJ1HzpY8pl3BZHZ1HuNv83Wqj446jiqnwJvS9lL6U_HfrONltle3H4jU8YL-yxk4PEO4WIT7UBQ4UwBWYt7A",
-      "originalPrice": 2.19,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.6,
-      "ratingCount": 2579,
-      "verified": true
-    },
-    {
       "id": "googleplay:extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app",
       "source": "googleplay",
       "store": "Google Play",
@@ -328,7 +305,7 @@
         "Android"
       ],
       "rating": 4.3,
-      "ratingCount": 672,
+      "ratingCount": 674,
       "verified": true
     },
     {

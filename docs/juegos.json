@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:01:03.414Z",
+  "updated": "2026-11-26T02:01:10.541Z",
   "items": [
     {
       "id": "epic:3d6441ab9d4246208bc97d7babf664b5:1f9a12b06b4f437790b6913ad136a08c",
@@ -175,6 +175,29 @@
       "verified": true
     },
     {
+      "id": "gamerpower:2204",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Dual Chroma: Academy Carols",
+      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
+      "url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "originalPrice": 2,
+      "currency": "USD",
+      "worthText": "$2.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2023-01-17T20:26:51.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
+      "verified": true
+    },
+    {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",
       "store": "Epic Games Store",
@@ -192,6 +215,52 @@
       "platforms": [
         "PC"
       ]
+    },
+    {
+      "id": "googleplay:com.redantz.game.za3p",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Zombie Age 3 Premium: Survival",
+      "description": "¡mantén la calma y que no te coman!",
+      "developer": "DOAN Tuan Anh",
+      "url": "https://play.google.com/store/apps/details?id=com.redantz.game.za3p",
+      "image": "https://play-lh.googleusercontent.com/X_S0WhW4FLasUyKLtqhylv_4NsjXfi0w77AL0Fxy-T5YWXywdR5A61x_4DPYJrQmd1M37bQwgJj27TTWOs31tg",
+      "originalPrice": 0.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 85471,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.zitga.guardian.war.premium.action.rpg.adventure.games",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Guardian War: Ultimate Edition",
+      "description": "Actualice a la edición Premium hoy y experimente la guerra de aventuras exclusiva.",
+      "developer": "Putaleng",
+      "url": "https://play.google.com/store/apps/details?id=com.zitga.guardian.war.premium.action.rpg.adventure.games",
+      "image": "https://play-lh.googleusercontent.com/6WmF8pXewgpPEiqbaqUHDuf6HsRMt4uhj4Vx0xKxZB90h7LmlVjqXBgE_g3_yTo6gY_dSzXzXKQneuES_op2sQ",
+      "originalPrice": 1.09,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.2,
+      "ratingCount": 6341,
+      "verified": true
     },
     {
       "id": "googleplay:alarm.clock.calendar.reminder.pro",
@@ -259,7 +328,7 @@
         "Android"
       ],
       "rating": 4.3,
-      "ratingCount": 671,
+      "ratingCount": 672,
       "verified": true
     },
     {
@@ -283,29 +352,6 @@
       ],
       "rating": 4.2,
       "ratingCount": 239,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.panotogomo.cuticonh",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Hexa Crop - Icon Pack",
-      "description": "Hexa Crop es un paquete de íconos en forma de Hexa con efecto de corte dentro de cada ícono.",
-      "developer": "GomoTheGom",
-      "url": "https://play.google.com/store/apps/details?id=com.panotogomo.cuticonh",
-      "image": "https://play-lh.googleusercontent.com/2jW8PZphPTNLVHxmmMcQToAuOSfHafMXVHnlVkhLK6LK4PKS73jYg16qc7NT3pgD342GqsZCa7nYzG9UxxTk_w",
-      "originalPrice": 1.49,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.6,
-      "ratingCount": 204,
       "verified": true
     }
   ]

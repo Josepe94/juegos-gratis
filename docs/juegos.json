@@ -1,6 +1,29 @@
 {
-  "updated": "2026-11-27T11:01:05.672Z",
+  "updated": "2026-11-27T12:01:10.385Z",
   "items": [
+    {
+      "id": "gamerpower:3860",
+      "source": "gamerpower",
+      "store": "GOG",
+      "title": "Dead Age 2",
+      "description": "Download Dead Age 2 for free via GOG! Dead Age 2 is a fun indie survival RPG with rogue-like features, fast-paced turn-based combat and survival all in one.",
+      "url": "https://www.gog.com/en/game/dead_age_2",
+      "image": "https://www.gamerpower.com/offers/1b/6b0969de22e37.jpg",
+      "originalPrice": 17.99,
+      "currency": "USD",
+      "worthText": "$17.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-11-27T06:30:38.000Z",
+      "endDate": "2026-11-30T23:59:00.000Z",
+      "platforms": [
+        "PC",
+        "GOG",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dead-age-2-gog-giveaway",
+      "verified": true
+    },
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
       "source": "epic",

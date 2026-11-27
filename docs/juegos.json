@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T03:01:08.559Z",
+  "updated": "2026-11-27T04:01:06.069Z",
   "items": [
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
@@ -175,6 +175,29 @@
       "verified": true
     },
     {
+      "id": "gamerpower:2204",
+      "source": "gamerpower",
+      "store": "itch.io",
+      "title": "Dual Chroma: Academy Carols",
+      "description": "Grab Dual Chroma: Academy Carols for free on itch.io! Dual Chroma: Academy Carols is a slice-of-life Visual Novel. Check it out, If you are a fan of this type of game!",
+      "url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "originalPrice": 2,
+      "currency": "USD",
+      "worthText": "$2.00",
+      "type": "game",
+      "status": "active",
+      "startDate": "2023-01-17T20:26:51.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "Itch.io",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/dual-chroma-academy-carols-itch-io-giveaway",
+      "verified": true
+    },
+    {
       "id": "epic:ca2e8ee2cacc4b69abd275a50422b010:72bd05148adb4e2cacb8b2efaa4c0297",
       "source": "epic",
       "store": "Epic Games Store",
@@ -213,30 +236,7 @@
         "Android"
       ],
       "rating": 4.3,
-      "ratingCount": 215138,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.redantz.game.za3p",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Zombie Age 3 Premium: Survival",
-      "description": "¡mantén la calma y que no te coman!",
-      "developer": "RedAntz",
-      "url": "https://play.google.com/store/apps/details?id=com.redantz.game.za3p",
-      "image": "https://play-lh.googleusercontent.com/X_S0WhW4FLasUyKLtqhylv_4NsjXfi0w77AL0Fxy-T5YWXywdR5A61x_4DPYJrQmd1M37bQwgJj27TTWOs31tg",
-      "originalPrice": 0.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.6,
-      "ratingCount": 85469,
+      "ratingCount": 215137,
       "verified": true
     },
     {
@@ -259,7 +259,7 @@
         "Android"
       ],
       "rating": 4.5,
-      "ratingCount": 13538,
+      "ratingCount": 13537,
       "verified": true
     },
     {
@@ -283,52 +283,6 @@
       ],
       "rating": 4.7,
       "ratingCount": 6441,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.zitga.guardian.war.premium.action.rpg.adventure.games",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Guardian War: Ultimate Edition",
-      "description": "Actualice a la edición Premium hoy y experimente la guerra de aventuras exclusiva.",
-      "developer": "Putaleng",
-      "url": "https://play.google.com/store/apps/details?id=com.zitga.guardian.war.premium.action.rpg.adventure.games",
-      "image": "https://play-lh.googleusercontent.com/6WmF8pXewgpPEiqbaqUHDuf6HsRMt4uhj4Vx0xKxZB90h7LmlVjqXBgE_g3_yTo6gY_dSzXzXKQneuES_op2sQ",
-      "originalPrice": 1.09,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.2,
-      "ratingCount": 6338,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.watchfacestudio.awffittwo",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Fit TWO Watch Face",
-      "description": "Fondo negro verdadero, píxeles perfectos, esfera de reloj digital fitness para Wear OS.",
-      "developer": "amoledwatchfaces™",
-      "url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.awffittwo",
-      "image": "https://play-lh.googleusercontent.com/r9ACuQZg_pTTp893-j8fxAY9BriVpgRvS9TXkocmwG1S7iMfJLn9jB-ZZGVYbwy-0WxLkZx0OXPZwA6VlrOMFsg",
-      "originalPrice": 1.79,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.2,
-      "ratingCount": 240,
       "verified": true
     }
   ]

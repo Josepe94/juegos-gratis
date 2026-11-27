@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T05:01:20.792Z",
+  "updated": "2026-11-27T06:01:05.126Z",
   "items": [
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
@@ -215,52 +215,6 @@
       "platforms": [
         "PC"
       ]
-    },
-    {
-      "id": "googleplay:it.rortos.realflightsimulator",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "RFS - Real Flight Simulator",
-      "description": "¡A pilotar! Vuela y aterriza icónicos aviones en aeropuertos de todo el mundo",
-      "developer": "RORTOS",
-      "url": "https://play.google.com/store/apps/details?id=it.rortos.realflightsimulator",
-      "image": "https://play-lh.googleusercontent.com/cjMQXsrPSPPpUO1X37rr6_vNWRTkMBWFoqlxqchrguLB019BVD6-COFFMgP9Y2EK4VzsdyHrUwbjFq_MXTA9DA",
-      "originalPrice": 0.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.3,
-      "ratingCount": 215139,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.gamefirst.religioninc",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Religion inc. 2",
-      "description": "Juego de estrategia sandbox sobre civilizaciones y religiones. Versión Premium.",
-      "developer": "GameFirst",
-      "url": "https://play.google.com/store/apps/details?id=com.gamefirst.religioninc",
-      "image": "https://play-lh.googleusercontent.com/SbnWed1zPFC01zFa52ONPX1pg2o8ULOjO_nB78mSQ6LVIuUFhp-geSCcVzw8d_SvRKLB3Y8YtLTHaOcVFQtDog",
-      "originalPrice": 0.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.5,
-      "ratingCount": 13537,
-      "verified": true
     },
     {
       "id": "googleplay:com.pantheraplay.soulhuntresspremium",

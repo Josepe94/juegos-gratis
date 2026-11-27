@@ -63,9 +63,10 @@
     "googleplay:com.pantheraplay.soulhuntresspremium|active",
     "googleplay:com.tapuniverse.phototopdf|active",
     "googleplay:com.southernstars.orbitrack|active",
-    "gamerpower:3860|active"
+    "gamerpower:3860|active",
+    "gamerpower:3334|active"
   ],
-  "posts": 64,
+  "posts": 65,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -450,7 +451,13 @@
       "title": "Dead Age 2",
       "store": "GOG",
       "status": "active"
+    },
+    {
+      "at": "2026-11-27T15:01:09.376Z",
+      "title": "Mysterious House",
+      "store": "IndieGala",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-27T14:01:12.154Z"
+  "lastRun": "2026-11-27T15:01:10.876Z"
 }

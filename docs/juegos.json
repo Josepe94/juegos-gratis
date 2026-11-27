@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T14:01:12.154Z",
+  "updated": "2026-11-27T15:01:10.876Z",
   "items": [
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
@@ -19,6 +19,28 @@
       "platforms": [
         "PC"
       ]
+    },
+    {
+      "id": "gamerpower:3334",
+      "source": "gamerpower",
+      "store": "IndieGala",
+      "title": "Mysterious House",
+      "description": "Mysterious House is free this week on Indiegala! Mysterious House is a indie 2d platformer filled with challenging puzzles and obstacles.",
+      "url": "https://freebies.indiegala.com/mysterious-house",
+      "image": "https://www.gamerpower.com/offers/1b/68fcca241e9d0.jpg",
+      "originalPrice": 0.99,
+      "currency": "USD",
+      "worthText": "$0.99",
+      "type": "game",
+      "status": "active",
+      "startDate": "2026-11-27T08:53:52.000Z",
+      "endDate": null,
+      "platforms": [
+        "PC",
+        "DRM-Free"
+      ],
+      "sourceUrl": "https://www.gamerpower.com/mysterious-house-pc-giveaway",
+      "verified": true
     },
     {
       "id": "gamerpower:3346",
@@ -106,28 +128,6 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/best-plumber-pc-giveaway",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3322",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "Sausage Hunter",
-      "description": "The hunt for the magic sausage starts now! Download Sausage Hunter for free on IndieGala. Sausage Hunter is a 2D platformer with hand-drawn graphics and intriguing puzzles... plus a kitten and sausages, for some reason.",
-      "url": "https://freebies.indiegala.com/sausage-hunter",
-      "image": "https://www.gamerpower.com/offers/1b/68eadb2d6f0c4.jpg",
-      "originalPrice": 29.99,
-      "currency": "USD",
-      "worthText": "$29.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-09-19T09:15:50.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/sausage-hunter-pc-giveaway",
       "verified": true
     },
     {

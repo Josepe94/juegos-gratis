@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T02:01:08.352Z",
+  "updated": "2026-11-27T02:47:53.972Z",
   "items": [
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
@@ -236,7 +236,7 @@
         "Android"
       ],
       "rating": 4.3,
-      "ratingCount": 215140,
+      "ratingCount": 215138,
       "verified": true
     },
     {
@@ -245,7 +245,7 @@
       "store": "Google Play",
       "title": "Zombie Age 3 Premium: Survival",
       "description": "¡mantén la calma y que no te coman!",
-      "developer": "DOAN Tuan Anh",
+      "developer": "RedAntz",
       "url": "https://play.google.com/store/apps/details?id=com.redantz.game.za3p",
       "image": "https://play-lh.googleusercontent.com/X_S0WhW4FLasUyKLtqhylv_4NsjXfi0w77AL0Fxy-T5YWXywdR5A61x_4DPYJrQmd1M37bQwgJj27TTWOs31tg",
       "originalPrice": 0.99,
@@ -282,7 +282,7 @@
         "Android"
       ],
       "rating": 4.5,
-      "ratingCount": 13537,
+      "ratingCount": 13538,
       "verified": true
     },
     {
@@ -329,29 +329,6 @@
       ],
       "rating": 4.2,
       "ratingCount": 6338,
-      "verified": true
-    },
-    {
-      "id": "googleplay:extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "APTV: IPTV Smarters Player PRO",
-      "description": "APTV - Reproductor IPTV, Conectar y Transmitir APTV Pro",
-      "developer": "BRILIC MEDIA",
-      "url": "https://play.google.com/store/apps/details?id=extreme.player.iptv.smart.xciptv.xtream.m3u.live.tv.channels.app",
-      "image": "https://play-lh.googleusercontent.com/bTzFetHwIBPphyp1pJEYVfOjUpMVN1y4NKxfVO9gjgKqOKd7OmqsedUsxwV_798qc2xN2t-TCtnzpZnqehbjxg",
-      "originalPrice": 10.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.1,
-      "ratingCount": 689,
       "verified": true
     },
     {

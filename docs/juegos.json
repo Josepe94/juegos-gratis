@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:01:11.102Z",
+  "updated": "2026-11-27T02:01:08.352Z",
   "items": [
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
@@ -217,6 +217,29 @@
       ]
     },
     {
+      "id": "googleplay:it.rortos.realflightsimulator",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "RFS - Real Flight Simulator",
+      "description": "¡A pilotar! Vuela y aterriza icónicos aviones en aeropuertos de todo el mundo",
+      "developer": "RORTOS",
+      "url": "https://play.google.com/store/apps/details?id=it.rortos.realflightsimulator",
+      "image": "https://play-lh.googleusercontent.com/cjMQXsrPSPPpUO1X37rr6_vNWRTkMBWFoqlxqchrguLB019BVD6-COFFMgP9Y2EK4VzsdyHrUwbjFq_MXTA9DA",
+      "originalPrice": 0.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.3,
+      "ratingCount": 215140,
+      "verified": true
+    },
+    {
       "id": "googleplay:com.redantz.game.za3p",
       "source": "googleplay",
       "store": "Google Play",
@@ -237,6 +260,29 @@
       ],
       "rating": 4.6,
       "ratingCount": 85469,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.gamefirst.religioninc",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Religion inc. 2",
+      "description": "Juego de estrategia sandbox sobre civilizaciones y religiones. Versión Premium.",
+      "developer": "GameFirst",
+      "url": "https://play.google.com/store/apps/details?id=com.gamefirst.religioninc",
+      "image": "https://play-lh.googleusercontent.com/SbnWed1zPFC01zFa52ONPX1pg2o8ULOjO_nB78mSQ6LVIuUFhp-geSCcVzw8d_SvRKLB3Y8YtLTHaOcVFQtDog",
+      "originalPrice": 0.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.5,
+      "ratingCount": 13537,
       "verified": true
     },
     {
@@ -283,29 +329,6 @@
       ],
       "rating": 4.2,
       "ratingCount": 6338,
-      "verified": true
-    },
-    {
-      "id": "googleplay:alarm.clock.calendar.reminder.pro",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Reminder Pro: Recordatorio",
-      "description": "Versión sin publicidad del recordatorio",
-      "developer": "made easy",
-      "url": "https://play.google.com/store/apps/details?id=alarm.clock.calendar.reminder.pro",
-      "image": "https://play-lh.googleusercontent.com/N4rFvzzN9yjYc9twiG0DnH70h7rKIHkDd7yiHRanXNDRh4p90SLerxzdpPfu5hD1Mczbmx3__3VNSifcyfwu",
-      "originalPrice": 3.79,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "app",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.4,
-      "ratingCount": 3339,
       "verified": true
     },
     {

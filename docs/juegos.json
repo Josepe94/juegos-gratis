@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T04:01:06.069Z",
+  "updated": "2026-11-27T05:01:20.792Z",
   "items": [
     {
       "id": "epic:7e95faaa77054b80828dd7d64bbeb4ff:f0a333114190492c84a9decd2bb43875",
@@ -236,7 +236,7 @@
         "Android"
       ],
       "rating": 4.3,
-      "ratingCount": 215137,
+      "ratingCount": 215139,
       "verified": true
     },
     {
@@ -263,15 +263,38 @@
       "verified": true
     },
     {
-      "id": "googleplay:com.tapuniverse.passportphoto",
+      "id": "googleplay:com.pantheraplay.soulhuntresspremium",
       "source": "googleplay",
       "store": "Google Play",
-      "title": "Passport Photo: ID Photo Print",
-      "description": "Creador de fotografías tamaño pasaporte, cree una fotografía de identificación y una fotografía para visa en segundos",
+      "title": "Soul Huntress: RPG Premium",
+      "description": "¡Acaba con los monstruos y domina tu estrategia de mazmorras!",
+      "developer": "PANTHERA GLOBAL",
+      "url": "https://play.google.com/store/apps/details?id=com.pantheraplay.soulhuntresspremium",
+      "image": "https://play-lh.googleusercontent.com/r9URIoNDSKRRNT4HtZ7fHoJ9_A8sbxohEsAzQTBEybNv7WnbIaA_MBdRoEbrKMz0Joao_S8-Az6YjyBCeohfmQ",
+      "originalPrice": 0.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.6,
+      "ratingCount": 8552,
+      "verified": true
+    },
+    {
+      "id": "googleplay:com.tapuniverse.phototopdf",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "Image to PDF - PNG to PDF",
+      "description": "Convertidor de JPG a PDF, convierte fácilmente fotos a PDF",
       "developer": "TAPUNIVERSE",
-      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.passportphoto",
-      "image": "https://play-lh.googleusercontent.com/JkJweG6pBX6qJs_0--04ZZKK2tsoO-rdopaUOsyTE4M7EguWOxtV1f8_OnON6gxFeC0otbuq9tS6itoerwO49w",
-      "originalPrice": 5.99,
+      "url": "https://play.google.com/store/apps/details?id=com.tapuniverse.phototopdf",
+      "image": "https://play-lh.googleusercontent.com/5yNfXkhLMO4qr24VJ7Y2ybAcYCAzEiPkvn5p12DnqwsmHcdRhn4BJJfr2vOVtqXOFepgD4RKSEFAFYDLt9-7",
+      "originalPrice": 3.49,
       "currency": "EUR",
       "worthText": null,
       "type": "app",
@@ -281,8 +304,8 @@
       "platforms": [
         "Android"
       ],
-      "rating": 4.7,
-      "ratingCount": 6441,
+      "rating": 4.8,
+      "ratingCount": 1583,
       "verified": true
     }
   ]

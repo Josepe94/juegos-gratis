@@ -61,9 +61,10 @@
     "googleplay:it.rortos.realflightsimulator|active",
     "googleplay:com.gamefirst.religioninc|active",
     "googleplay:com.pantheraplay.soulhuntresspremium|active",
-    "googleplay:com.tapuniverse.phototopdf|active"
+    "googleplay:com.tapuniverse.phototopdf|active",
+    "googleplay:com.southernstars.orbitrack|active"
   ],
-  "posts": 62,
+  "posts": 63,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -436,7 +437,13 @@
       "title": "Image to PDF - PNG to PDF",
       "store": "Google Play",
       "status": "active"
+    },
+    {
+      "at": "2026-11-27T08:01:12.466Z",
+      "title": "Orbitrack",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-27T07:01:10.373Z"
+  "lastRun": "2026-11-27T08:01:13.967Z"
 }

@@ -64,9 +64,14 @@
     "googleplay:com.tapuniverse.phototopdf|active",
     "googleplay:com.southernstars.orbitrack|active",
     "gamerpower:3860|active",
-    "gamerpower:3334|active"
+    "gamerpower:3334|active",
+    "gamerpower:2478|active",
+    "gamerpower:2109|active",
+    "gamerpower:3862|active",
+    "gamerpower:3863|active",
+    "gamerpower:3861|active"
   ],
-  "posts": 65,
+  "posts": 70,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -457,7 +462,37 @@
       "title": "Mysterious House",
       "store": "IndieGala",
       "status": "active"
+    },
+    {
+      "at": "2026-11-28T00:01:05.596Z",
+      "title": "Boots Quest DX",
+      "store": "itch.io",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-28T00:01:07.257Z",
+      "title": "Tim-Tim 2: The Almighty Gnome",
+      "store": "itch.io",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-28T00:01:09.444Z",
+      "title": "Ba Bị",
+      "store": "itch.io",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-28T00:01:11.478Z",
+      "title": "Lonely in the Winter",
+      "store": "itch.io",
+      "status": "active"
+    },
+    {
+      "at": "2026-11-28T00:01:13.482Z",
+      "title": "Rulebound",
+      "store": "itch.io",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-27T23:01:04.246Z"
+  "lastRun": "2026-11-28T00:01:14.982Z"
 }

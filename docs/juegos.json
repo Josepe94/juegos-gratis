@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T08:01:03.041Z",
+  "updated": "2026-11-28T09:01:05.595Z",
   "items": [
     {
       "id": "gamerpower:3860",
@@ -106,29 +106,6 @@
         "Itch.io"
       ],
       "sourceUrl": "https://www.gamerpower.com/n-a",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3863",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Lonely in the Winter",
-      "description": "Claim Lonely in the Winter for free via itch.io! Lonely in the Winter is a small 2d rpg game with casual gameplay.",
-      "url": "https://soyer.itch.io/lonely-in-the-winter",
-      "image": "https://www.gamerpower.com/offers/1b/6b0a113ba497d.jpg",
-      "originalPrice": 2.99,
-      "currency": "USD",
-      "worthText": "$2.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-11-27T18:24:43.000Z",
-      "endDate": "2026-12-06T23:59:00.000Z",
-      "platforms": [
-        "PC",
-        "Itch.io",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/lonely-in-the-winter-itch-io-giveaway",
       "verified": true
     },
     {
@@ -392,7 +369,7 @@
         "Android"
       ],
       "rating": 4.1,
-      "ratingCount": 908,
+      "ratingCount": 909,
       "verified": true
     }
   ]

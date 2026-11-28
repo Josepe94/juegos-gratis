@@ -80,9 +80,11 @@
   "borm:https://www.borm.es/services/anuncio/846564/pdf",
   "borm:https://www.borm.es/services/anuncio/846565/pdf",
   "borm:https://www.borm.es/services/anuncio/846568/pdf",
-  "borm:https://www.borm.es/services/anuncio/846569/pdf"
+  "borm:https://www.borm.es/services/anuncio/846569/pdf",
+  "borm:https://www.borm.es/services/anuncio/846584/pdf",
+  "borm:https://www.borm.es/services/anuncio/846585/pdf"
  ],
  "lastBoe": null,
  "previews": 5,
- "lastRun": "2026-11-27T23:01:22.690Z"
+ "lastRun": "2026-11-28T00:01:05.969Z"
 }

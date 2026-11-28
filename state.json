@@ -69,9 +69,10 @@
     "gamerpower:2109|active",
     "gamerpower:3862|active",
     "gamerpower:3863|active",
-    "gamerpower:3861|active"
+    "gamerpower:3861|active",
+    "googleplay:com.TheLonelyDeveloper.TheLonelyHacker|active"
   ],
-  "posts": 70,
+  "posts": 71,
   "history": [
     {
       "at": "2026-11-12T04:24:28.935Z",
@@ -492,7 +493,13 @@
       "title": "Rulebound",
       "store": "itch.io",
       "status": "active"
+    },
+    {
+      "at": "2026-11-28T02:01:38.116Z",
+      "title": "El Hacker Solitario",
+      "store": "Google Play",
+      "status": "active"
     }
   ],
-  "lastRun": "2026-11-28T01:01:20.192Z"
+  "lastRun": "2026-11-28T02:01:39.617Z"
 }

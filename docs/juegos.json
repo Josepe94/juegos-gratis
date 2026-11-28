@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:01:20.192Z",
+  "updated": "2026-11-28T02:01:39.617Z",
   "items": [
     {
       "id": "gamerpower:3860",
@@ -220,28 +220,6 @@
       "verified": true
     },
     {
-      "id": "gamerpower:3331",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "Last Room",
-      "description": "Dive into a world of puzzles today! Download Last Room for free on IndieGala! Last Room is a 3d puzzle game with interactive environments, medieval mysteries and secret levels.",
-      "url": "https://freebies.indiegala.com/last-room",
-      "image": "https://www.gamerpower.com/offers/1b/68f91bd81c328.jpg",
-      "originalPrice": 29.99,
-      "currency": "USD",
-      "worthText": "$29.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-10-19T11:58:10.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/last-room-pc-giveaway",
-      "verified": true
-    },
-    {
       "id": "gamerpower:3328",
       "source": "gamerpower",
       "store": "IndieGala",
@@ -261,50 +239,6 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/best-plumber-pc-giveaway",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3324",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "Battle Ram",
-      "description": "Become the battle lamb you were born to be! Battle Ram is free this week on IndieGala, download it now! Battle Ram is a 2d action-packed game with lambs and battling robots.",
-      "url": "https://freebies.indiegala.com/battle-ram?tap_s=1069275-d1b8f4",
-      "image": "https://www.gamerpower.com/offers/1b/68efabd65f913.jpg",
-      "originalPrice": 29.99,
-      "currency": "USD",
-      "worthText": "$29.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-09-02T09:51:31.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/battle-ram-pc-giveaway",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3316",
-      "source": "gamerpower",
-      "store": "IndieGala",
-      "title": "Leaper",
-      "description": "Time to put your reflexes to the test! Download Leaper for free on IndieGala! Leaper is a 2d side-scrolling platformer with colorful pixel graphics and precise jumping mechanics. Check it out!",
-      "url": "https://freebies.indiegala.com/leaper",
-      "image": "https://www.gamerpower.com/offers/1b/68e6513c31514.jpg",
-      "originalPrice": 4.99,
-      "currency": "USD",
-      "worthText": "$4.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-08-26T07:55:48.000Z",
-      "endDate": null,
-      "platforms": [
-        "PC",
-        "DRM-Free"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/leaper-pc-giveaway",
       "verified": true
     },
     {
@@ -350,6 +284,29 @@
       ]
     },
     {
+      "id": "googleplay:com.TheLonelyDeveloper.TheLonelyHacker",
+      "source": "googleplay",
+      "store": "Google Play",
+      "title": "El Hacker Solitario",
+      "description": "¿Alguna vez quisiste sentirte como un hacker? Bienvenido a The Lonely Hacker!",
+      "developer": "The Lonely Developer Studios - Spain",
+      "url": "https://play.google.com/store/apps/details?id=com.TheLonelyDeveloper.TheLonelyHacker",
+      "image": "https://play-lh.googleusercontent.com/7fTm_uFpPlusPfgoF-3V0DRA7-bK5gfdUxoBq6dSa0b9GZTPB8yGP2qY_bH1UrOPHWP5B2EJ7jsRqK-elrTTxvg",
+      "originalPrice": 2.99,
+      "currency": "EUR",
+      "worthText": null,
+      "type": "mobilegame",
+      "status": "active",
+      "startDate": null,
+      "endDate": null,
+      "platforms": [
+        "Android"
+      ],
+      "rating": 4.1,
+      "ratingCount": 18475,
+      "verified": true
+    },
+    {
       "id": "googleplay:com.pantheraplay.soulhuntresspremium",
       "source": "googleplay",
       "store": "Google Play",
@@ -369,7 +326,7 @@
         "Android"
       ],
       "rating": 4.6,
-      "ratingCount": 8553,
+      "ratingCount": 8554,
       "verified": true
     },
     {

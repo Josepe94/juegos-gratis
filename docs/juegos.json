@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T05:01:06.077Z",
+  "updated": "2026-11-28T06:01:12.489Z",
   "items": [
     {
       "id": "gamerpower:3860",
@@ -370,29 +370,6 @@
       ],
       "rating": 4.1,
       "ratingCount": 18475,
-      "verified": true
-    },
-    {
-      "id": "googleplay:com.pantheraplay.soulhuntresspremium",
-      "source": "googleplay",
-      "store": "Google Play",
-      "title": "Soul Huntress: RPG Premium",
-      "description": "¡Acaba con los monstruos y domina tu estrategia de mazmorras!",
-      "developer": "PANTHERA GLOBAL",
-      "url": "https://play.google.com/store/apps/details?id=com.pantheraplay.soulhuntresspremium",
-      "image": "https://play-lh.googleusercontent.com/r9URIoNDSKRRNT4HtZ7fHoJ9_A8sbxohEsAzQTBEybNv7WnbIaA_MBdRoEbrKMz0Joao_S8-Az6YjyBCeohfmQ",
-      "originalPrice": 0.99,
-      "currency": "EUR",
-      "worthText": null,
-      "type": "mobilegame",
-      "status": "active",
-      "startDate": null,
-      "endDate": null,
-      "platforms": [
-        "Android"
-      ],
-      "rating": 4.6,
-      "ratingCount": 8553,
       "verified": true
     },
     {

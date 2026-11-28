@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T16:01:02.019Z",
+  "updated": "2026-11-28T17:01:08.331Z",
   "items": [
     {
       "id": "gamerpower:3860",
@@ -87,28 +87,6 @@
       ]
     },
     {
-      "id": "gamerpower:3862",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Ba Bị",
-      "description": "Download Ba Bị for free on itch.io! Ba Bị 3D is a puzzle game based on Vietnamese folklore.",
-      "url": "https://babi-electric.itch.io/ba-bi",
-      "image": "https://www.gamerpower.com/offers/1b/6b0a1024d09c7.jpg",
-      "originalPrice": 4.99,
-      "currency": "USD",
-      "worthText": "$4.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-11-27T18:20:04.000Z",
-      "endDate": "2026-12-04T23:59:00.000Z",
-      "platforms": [
-        "PC",
-        "Itch.io"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/n-a",
-      "verified": true
-    },
-    {
       "id": "gamerpower:3863",
       "source": "gamerpower",
       "store": "itch.io",
@@ -129,28 +107,6 @@
         "DRM-Free"
       ],
       "sourceUrl": "https://www.gamerpower.com/lonely-in-the-winter-itch-io-giveaway",
-      "verified": true
-    },
-    {
-      "id": "gamerpower:3861",
-      "source": "gamerpower",
-      "store": "itch.io",
-      "title": "Rulebound",
-      "description": "Score Rulebound for free via itch.io! Rulebound is a 3d surreal incremental game where survival depends on split attention.",
-      "url": "https://garagemonke.itch.io/rulebound",
-      "image": "https://www.gamerpower.com/offers/1b/6b0a0de4276dc.jpg",
-      "originalPrice": 6.99,
-      "currency": "USD",
-      "worthText": "$6.99",
-      "type": "game",
-      "status": "active",
-      "startDate": "2026-11-27T18:10:28.000Z",
-      "endDate": "2026-12-31T23:59:00.000Z",
-      "platforms": [
-        "PC",
-        "Itch.io"
-      ],
-      "sourceUrl": "https://www.gamerpower.com/rulebound-itch-io-giveaway",
       "verified": true
     },
     {
